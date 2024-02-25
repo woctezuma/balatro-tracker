@@ -18,6 +18,11 @@ Data was then:
 - filtered so that only the text strings for English and French were kept,
 - formatted with [StyLua][stylua-github].
 
+> [!NOTE]
+> If a commit name is a number, then:
+> - this number is the `ManifestID`,
+> - the purpose of the commit is simply to update the text string data.
+
 <!-- Definitions -->
 
 [balatro-website]: <https://www.playbalatro.com/>
