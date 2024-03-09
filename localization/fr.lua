@@ -67,7 +67,6 @@ return {
 				name = "Jongleur",
 				text = {
 					"{C:attention}+#1#{} à la taille de la main",
-					"{C:attention}+#1#{} taille de la main",
 				},
 			},
 			j_drunkard = {
@@ -913,7 +912,7 @@ return {
 					"Octroie {C:chips}+#2#{} Jetons si",
 					"la main jouée contient",
 					"exactement {C:attention}4{} cartes",
-					"{C:inactive}(Actuellement {C:chips}#1#{} Jetons)",
+					"{C:inactive}(Actuellement {C:chips}#1#{C:inactive} Jetons)",
 				},
 			},
 			j_seance = {
@@ -1536,7 +1535,6 @@ return {
 					"{C:attention}-#1#{} à la mise initiale",
 					"{C:blue}-#1#{} main",
 					"par manche",
-					"{C:attention}-#1#{} à la mise initiale",
 				},
 			},
 			v_directors_cut = {
