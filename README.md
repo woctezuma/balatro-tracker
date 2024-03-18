@@ -23,6 +23,10 @@ Data was then:
 > - this number is the `ManifestID`,
 > - the purpose of the commit is simply to update the text string data.
 
+## References
+
+- An [improved translation][github-community-fr] to French was suggested by the community.
+
 <!-- Definitions -->
 
 [balatro-website]: <https://www.playbalatro.com/>
@@ -30,4 +34,5 @@ Data was then:
 [balatro-depots]: <https://steamdb.info/app/2379780/depots/>
 [balatro-manifests]: <https://steamdb.info/depot/2379781/manifests/>
 [depot-downloader-script]: <https://github.com/SteamRE/DepotDownloader/discussions/215#discussioncomment-830258>
+[github-community-fr]: <https://github.com/FrBmt-BIGetNouf/balatro-french-translations>
 [stylua-github]: <https://github.com/JohnnyMorganz/StyLua>
