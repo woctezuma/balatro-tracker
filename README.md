@@ -12,6 +12,18 @@ Data was downloaded:
 > [!TIP]
 > Refer to [this script][depot-downloader-script] to loop over several manifests.
 
+## Sorting
+
+Data can be sorted with the command-lines:
+```sh
+python format_lua.py --sort --language en-us 
+python format_lua.py --sort -l fr
+```
+Alternatively, filenames can be directly specified:
+```sh
+python format_lua.py --sort -i localization/fr.lua -o out.lua
+```
+
 ## Post-processing
 
 Data was then:
