@@ -14,7 +14,7 @@ return {
 				name = "Jeu anaglyphe",
 				text = {
 					"Après avoir battu chaque",
-					"{C:attention}Boss Blinde{}, gagnez",
+					"{C:attention}Blinde Boss{}, gagnez",
 					"{C:attention,T:tag_double}#1#",
 				},
 			},
@@ -82,7 +82,7 @@ return {
 				name = "Jeu magique",
 				text = {
 					"Commencez la partie avec le",
-					"bon d'achat {C:tarot,T:v_crystal_ball}#1#{}",
+					"coupon {C:tarot,T:v_crystal_ball}#1#{}",
 					"et {C:attention}2{} copies",
 					"de {C:tarot,T:c_fool}#2#",
 				},
@@ -99,7 +99,7 @@ return {
 				name = "Jeu nébuleux",
 				text = {
 					"Commencez la partie avec le",
-					"bon d'achat {C:planet}#1#{}",
+					"coupon {C:planet,T:v_telescope}#1#{}",
 					"",
 					"{C:red}#2#{} emplacement de consommable",
 				},
@@ -155,7 +155,7 @@ return {
 			bl_arm = {
 				name = "Le bras",
 				text = {
-					"Diminuez le niveau de",
+					"Diminue le niveau de",
 					"la main de poker jouée",
 				},
 			},
@@ -167,7 +167,7 @@ return {
 				name = "Le club",
 				text = {
 					"Toutes les cartes Trèfle",
-					"voient leurs bonus disparaître",
+					"perdent leurs bonus",
 				},
 			},
 			bl_eye = {
@@ -201,7 +201,7 @@ return {
 			bl_final_leaf = {
 				name = "Feuille verte",
 				text = {
-					"Toutes les cartes voient leurs bonus disparaître",
+					"Toutes les cartes perdent leurs bonus",
 					"jusqu'à ce qu'un Joker soit vendu",
 				},
 			},
@@ -229,20 +229,20 @@ return {
 				name = "L'aiguillon",
 				text = {
 					"Toutes les cartes Pique",
-					"voient leurs bonus disparaître",
+					"perdent leurs bonus",
 				},
 			},
 			bl_head = {
 				name = "La tête",
 				text = {
 					"Toutes les cartes Cœur",
-					"voient leurs bonus disparaître",
+					"perdent leurs bonus",
 				},
 			},
 			bl_hook = {
 				name = "L'hameçon",
 				text = {
-					"Défaussez 2 cartes aléatoires",
+					"Défausse 2 cartes aléatoires",
 					"par main jouée",
 				},
 			},
@@ -290,14 +290,14 @@ return {
 				name = "Le pilier",
 				text = {
 					"Les cartes jouées avant cette",
-					"mise initiale voient leurs bonus disparaître",
+					"mise initiale perdent leurs bonus",
 				},
 			},
 			bl_plant = {
 				name = "La plante",
 				text = {
 					"Toutes les cartes Figure",
-					"voient leurs bonus disparaître",
+					"perdent leurs bonus",
 				},
 			},
 			bl_psychic = {
@@ -348,7 +348,7 @@ return {
 				name = "La fenêtre",
 				text = {
 					"Toutes les cartes Carreau",
-					"voient leurs bonus disparaître",
+					"perdent leurs bonus",
 				},
 			},
 		},
@@ -360,7 +360,7 @@ return {
 				},
 			},
 			e_foil = {
-				name = "Aluminium",
+				name = "Brillante",
 				text = {
 					"{C:chips}+#1#{} Jetons",
 				},
@@ -442,7 +442,7 @@ return {
 				},
 			},
 			m_wild = {
-				name = "Carte Libre",
+				name = "Carte Sauvage",
 				text = {
 					"Peut être utilisée",
 					"comme n'importe quelle couleur",
@@ -453,7 +453,7 @@ return {
 			j_8_ball = {
 				name = "N° 8",
 				text = {
-					"Créez une carte {C:planet}Planète{}",
+					"Crée une carte {C:planet}Planète{}",
 					"si la main jouée contient",
 					"{C:attenetion}#1#{} {C:attention}8{} ou plus",
 					"{C:inactive}(Selon la place disponible)",
@@ -616,7 +616,7 @@ return {
 			j_burnt = {
 				name = "Joker calciné",
 				text = {
-					"Augmentez le niveau de",
+					"Augmente le niveau de",
 					"la première main de poker {C:attention}défaussée",
 					"à chaque manche",
 				},
@@ -651,7 +651,7 @@ return {
 				text = {
 					"Ce Joker ajoute {X:mult,C:white}x#1#{} au Multi.",
 					"pour chaque carte {C:attention}vendue{}, mais ce multi. est réinitialisé",
-					"lorsque la {C:attention}Boss Blinde{} est vaincue",
+					"lorsque la {C:attention}Blinde Boss{} est vaincue",
 					"{C:inactive}(Actuellement Multi. {X:mult,C:white} x#2# {C:inactive})",
 				},
 			},
@@ -666,7 +666,7 @@ return {
 			j_cartomancer = {
 				name = "Cartomancien",
 				text = {
-					"Créez une carte {C:tarot}Tarot{}",
+					"Crée une carte {C:tarot}Tarot{}",
 					"lorsque la {C:attention}Blinde{} est sélectionnée",
 					"{C:inactive}(Selon la place disponible)",
 				},
@@ -697,8 +697,8 @@ return {
 				name = "Dague de cérémonie",
 				text = {
 					"Lorsque la {C:attention}Blinde{} est sélectionnée,",
-					"détruisez le Joker situé à droite",
-					"et ajoutent de manière permanente le {C:attention}double",
+					"détruit le Joker situé à sa droite",
+					"et ajoute de manière permanente le {C:attention}double",
 					"de sa valeur de vente à ce {C:attention}Multi.",
 					"{C:inactive}(Actuellement Multi. {C:mult}+#1#{C:inactive})",
 				},
@@ -707,7 +707,7 @@ return {
 				name = "Certificat",
 				text = {
 					"Au début de la manche,",
-					"ajoutez une {C:attention}carte{} à {C:attention}jouer",
+					"ajoute une {C:attention}carte{} à {C:attention}jouer",
 					"aléatoire avec un",
 					"{C:attention}sceau{} aléatoire dans votre main",
 				},
@@ -720,7 +720,7 @@ return {
 			j_chaos = {
 				name = "Chaos le clown",
 				text = {
-					"{C:attention}#1#{} {C:green}Nouveau lancer gratuit",
+					"{C:attention}#1#{} {C:green}Renouvellement gratuit",
 					"par magasin",
 				},
 			},
@@ -728,7 +728,7 @@ return {
 				name = "Chicot",
 				text = {
 					"Annule l'effet de",
-					"chaque {C:attention}Boss Blinde",
+					"chaque {C:attention}Blinde Boss",
 				},
 				unlock = {
 					"{E:1,s:1.3}?????",
@@ -858,7 +858,7 @@ return {
 			j_dusk = {
 				name = "Crépuscule",
 				text = {
-					"Déclenchez à nouveau toutes les",
+					"Déclenche à nouveau toutes les",
 					"cartes marquantes dans la main",
 					"{C:attention}finale{C:attention}{} de la manche",
 				},
@@ -916,14 +916,14 @@ return {
 				text = {
 					"Chaque {C:attention}As{},",
 					"{C:attention}2{}, {C:attention}3{}, {C:attention}5{}, ou {C:attention}8{} joué octroie",
-					"{C:mult}+#1#{} au Multi. lorsque ces cartes marquent des points",
+					"{C:mult}+#1#{} au Multi. lorsqu'elles marquent des points",
 				},
 			},
 			j_flash = {
 				name = "Carte mémoire",
 				text = {
 					"Ajoute {C:mult}+#1#{} au Multi. par",
-					"{C:attention}nouveau lancer{} dans le magasin",
+					"{C:attention}renouvellement{} dans le magasin",
 					"{C:inactive}(Actuellement Multi. {C:mult}+#2#{C:inactive})",
 				},
 			},
@@ -933,7 +933,7 @@ return {
 					"Multi. {X:mult,C:white}x#1#{} si",
 					"la main jouée",
 					"contient une carte {C:diamonds}Carreau{}, une carte {C:clubs}Trèfle{},",
-					"carte {C:hearts}Cœur{} et carte {C:spades}Pic{}",
+					"carte {C:hearts}Cœur{} et carte {C:spades}Pique{}",
 				},
 				unlock = {
 					"Atteignez la mise initiale",
@@ -952,16 +952,16 @@ return {
 				name = "Quatre doigts",
 				text = {
 					"Toutes les {C:attention}Couleurs{} et les",
-					"{C:attention}Quintes{} peuvent être",
+					"{C:attention}Suites{} peuvent être",
 					"effectuées avec {C:attention}4{} cartes",
 				},
 			},
 			j_gift = {
 				name = "Carte cadeau",
 				text = {
-					"Ajoutez {C:money}#1# ${} à la {C:attention}valeur de vente",
+					"Ajoute {C:money}#1# ${} à la {C:attention}valeur de vente",
 					"de chaque carte {C:attention}Joker{} et",
-					"chaque carte {C:attention}Consommable{} à",
+					"carte {C:attention}Consommable{} à",
 					"la fin de la manche",
 				},
 			},
@@ -975,7 +975,7 @@ return {
 				},
 				unlock = {
 					"Vous devez avoir au moins {E:1,C:attention}#1#",
-					"{E:1,C:attention}#2#{} au minimum dans",
+					"{E:1,C:attention}#2#{} dans",
 					"votre jeu",
 				},
 			},
@@ -1022,7 +1022,7 @@ return {
 			j_hack = {
 				name = "Imposteur",
 				text = {
-					"Déclenchez à nouveau",
+					"Déclenche à nouveau",
 					"chaque",
 					"{C:attention}2{}, {C:attention}3{}, {C:attention}4{} ou {C:attention}5{} joué",
 				},
@@ -1032,7 +1032,7 @@ return {
 				text = {
 					"Multi. {C:red}+#1#{} si",
 					"la main jouée contient",
-					"{C:attention}#2#{} ou moins de cartes",
+					"{C:attention}#2#{} cartes ou moins",
 				},
 			},
 			j_hallucination = {
@@ -1047,12 +1047,12 @@ return {
 			j_hanging_chad = {
 				name = "Carte de vote",
 				text = {
-					"Déclenchez à nouveau la {C:attention}première{}",
+					"Déclenche à nouveau la {C:attention}première{}",
 					"carte utilisée pour marquer des points",
 				},
 				unlock = {
 					"Battez une Boss Blinde",
-					"avec un {E:1,C:attention}#1#",
+					"avec 1 {E:1,C:attention}#1#",
 				},
 			},
 			j_hiker = {
@@ -1140,6 +1140,7 @@ return {
 				name = "Jongleur",
 				text = {
 					"{C:attention}+#1#{} à la taille de la main",
+					"{C:attention}+#1#{} taille de la main",
 				},
 			},
 			j_loyalty_card = {
@@ -1155,7 +1156,7 @@ return {
 				text = {
 					"Vendez cette carte pour",
 					"désactiver la",
-					"{C:attention}Boss Blinde{} actuelle",
+					"{C:attention}Blinde Boss{} actuelle",
 				},
 			},
 			j_lucky_cat = {
@@ -1188,7 +1189,7 @@ return {
 				text = {
 					"Lorsque la {C:attention}Blinde{} est sélectionnée,",
 					"gagnez {X:mult,C:white} x#1# {} au Multi. et",
-					"{C:attention}détruisez{} un Joker au hasard",
+					"{C:attention}détruit{} un Joker au hasard",
 					"{C:inactive}(Actuellement Multi. {X:mult,C:white}x#2#{})",
 				},
 			},
@@ -1213,10 +1214,10 @@ return {
 				text = {
 					"Gagnez {C:money}#1# ${} si la main jouée",
 					"déclenche la capacité",
-					"{C:attention}Boss Blinde{}",
+					"{C:attention}Blinde Boss{}",
 				},
 				unlock = {
-					"Battez une Boss Blinde",
+					"Battez une Blinde Boss",
 					"en {E:1,C:attention}une main{} sans",
 					"utiliser aucune défausse",
 				},
@@ -1243,7 +1244,7 @@ return {
 			j_mime = {
 				name = "Mime",
 				text = {
-					"Déclenchez à nouveau toutes",
+					"Déclenche à nouveau toutes",
 					"les capacités",
 					"des{C:attention} cartes {C:attention}en main{}",
 				},
@@ -1271,7 +1272,7 @@ return {
 				text = {
 					"Multi. {C:mult}+#1#{} lorsqu'il y a",
 					"{C:attention}#2#{} défausse",
-					"restante",
+					"restante(s)",
 				},
 			},
 			j_obelisk = {
@@ -1353,7 +1354,7 @@ return {
 				},
 			},
 			j_photograph = {
-				name = "Photographe",
+				name = "Photographie",
 				text = {
 					"La première carte {C:attention}Figure",
 					"octroie {X:mult,C:white} x#1# {} au Multi.",
@@ -1396,9 +1397,9 @@ return {
 				name = "Place réservée",
 				text = {
 					"Chaque carte {C:attention}Figure{}",
-					"en main a",
+					"tenue en main a",
 					"{C:green}#2# chance(s) sur #3#{}",
-					"pour octroyer {C:money}#1# ${}",
+					"d'octroyer {C:money}#1# ${}",
 				},
 			},
 			j_ride_the_bus = {
@@ -1415,7 +1416,7 @@ return {
 				name = "Racaille",
 				text = {
 					"Lorsque la {C:attention}Blinde{} est sélectionnée,",
-					"créez {C:money}#1# {C:blue}Joker Commun{C:attention}",
+					"crée {C:money}#1# {C:blue}Joker Commun{C:attention}",
 					"{C:inactive}(Selon la place disponible)",
 				},
 			},
@@ -1436,7 +1437,7 @@ return {
 				text = {
 					"Gagnez {C:money}#1# ${} à la fin de la",
 					"de la manche. Octroie {C:money}#2# ${} lorsque",
-					"la {C:attention}Boss Blinde{} est vaincue",
+					"la {C:attention}Blinde Boss{} est vaincue",
 				},
 			},
 			j_rough_gem = {
@@ -1457,7 +1458,7 @@ return {
 				text = {
 					"Octroie {C:chips}+#2#{} Jetons",
 					"si la main jouée",
-					"contient une {C:attention}Quinte{}",
+					"contient une {C:attention}Suite{}",
 					"{C:inactive}(Actuellement {C:chips}+#1#{C:inactive} Jetons)",
 				},
 			},
@@ -1465,7 +1466,7 @@ return {
 				name = "Satellite",
 				text = {
 					"Gagnez {C:money}#1# ${} à la fin de la manche",
-					"pour chaque chaque carte {C:planet}Planète unique",
+					"pour chaque carte {C:planet}Planète unique",
 					"utilisée dans cette partie",
 					"{C:inactive}(Actuellement {C:money}#2# ${C:inactive})",
 				},
@@ -1495,7 +1496,7 @@ return {
 				name = "Séance",
 				text = {
 					"Si la {C:attention}main de poker{} est de type",
-					"{C:attention}#1#{}, créez",
+					"{C:attention}#1#{}, crée",
 					"une carte {C:spectral}Spectrale{} aléatoire",
 					"{C:inactive}(Selon la place disponible)",
 				},
@@ -1517,7 +1518,7 @@ return {
 			j_selzer = {
 				name = "Seltz",
 				text = {
-					"Déclenchez à nouveau toutes les",
+					"Déclenche à nouveau toutes les",
 					"cartes jouées pour",
 					"les {C:attention}#1#{} prochaines mains",
 				},
@@ -1526,7 +1527,7 @@ return {
 				name = "Objectif lune",
 				text = {
 					"Multi. {C:mult}+#1#{} pour chaque",
-					"{C:attention}Reine{}",
+					"{C:attention}Dame{}",
 					"dans votre main",
 				},
 				unlock = {
@@ -1538,7 +1539,7 @@ return {
 			j_shortcut = {
 				name = "Raccourci",
 				text = {
-					"Permet de créer des {C:attention}Quintes{}",
+					"Permet de créer des {C:attention}Suites{}",
 					"avec des {C:attention}écarts de valeur de 1",
 					"{C:inactive}(ex. : {C:attention}2 3 5 7 8{C:inactive})",
 				},
@@ -1570,7 +1571,7 @@ return {
 				},
 				unlock = {
 					"Vous devez avoir au moins {C:attention}#1#",
-					"{E:1,C:attention}#2#{} au minimum dans",
+					"{E:1,C:attention}#2#{} dans",
 					"votre jeu",
 				},
 			},
@@ -1585,7 +1586,7 @@ return {
 			j_sock_and_buskin = {
 				name = "Tragicomédie",
 				text = {
-					"Déclenchez à nouveau toutes les",
+					"Déclenche à nouveau toutes les",
 					"cartes {C:attention}Figure{} jouées",
 				},
 				unlock = {
@@ -1668,9 +1669,9 @@ return {
 			j_superposition = {
 				name = "Superposition",
 				text = {
-					"Créez une carte {C:tarot}Tarot{} si",
+					"Crée une carte {C:tarot}Tarot{} si",
 					"la main de poker contient un",
-					"{C:attention}As{} et une {C:attention}Quinte{}",
+					"{C:attention}As{} et une {C:attention}Suite{}",
 					"{C:inactive}(Selon la place disponible)",
 				},
 			},
@@ -1754,7 +1755,7 @@ return {
 				name = "Triboulet",
 				text = {
 					"Les {C:attention}Rois{} et les",
-					"{C:attention}Reines{} joués octroient chacun",
+					"{C:attention}Dames{} jouées octroient chacun",
 					"{X:mult,C:white} x#1# {} au Multi. lorsqu'ils marquent des points",
 				},
 				unlock = {
@@ -2029,7 +2030,7 @@ return {
 			p_arcana_jumbo = {
 				name = "Paquet Jumbo Arcana",
 				text = {
-					"Choisissez de {C:attention}#1#{} à",
+					"Choisissez {C:attention}#1#{} parmi",
 					"{C:attention}#2# cartes de{C:tarot} Tarot{} à",
 					"utiliser immédiatement",
 				},
@@ -2037,7 +2038,7 @@ return {
 			p_arcana_mega = {
 				name = "Paquet Méga-Arcana",
 				text = {
-					"Choisissez de {C:attention}#1#{} à",
+					"Choisissez {C:attention}#1#{} parmi",
 					"{C:attention}#2# cartes de{C:tarot} Tarot{} à",
 					"utiliser immédiatement",
 				},
@@ -2045,7 +2046,7 @@ return {
 			p_arcana_normal = {
 				name = "Paquet Arcana",
 				text = {
-					"Choisissez de {C:attention}#1#{} à",
+					"Choisissez {C:attention}#1#{} parmi",
 					"{C:attention}#2# cartes de{C:tarot} Tarot{} à",
 					"utiliser immédiatement",
 				},
@@ -2053,28 +2054,28 @@ return {
 			p_buffoon_jumbo = {
 				name = "Paquet Jumbo Bouffon",
 				text = {
-					"Choisissez de {C:attention}#1#{} à",
+					"Choisissez {C:attention}#1#{} parmi",
 					"{C:attention}#2# cartes {C:joker}Joker{}",
 				},
 			},
 			p_buffoon_mega = {
 				name = "Paquet Méga-Bouffon",
 				text = {
-					"Choisissez de {C:attention}#1#{} à",
+					"Choisissez {C:attention}#1#{} parmi",
 					"{C:attention}#2# cartes {C:joker}Joker{}",
 				},
 			},
 			p_buffoon_normal = {
 				name = "Paquet Bouffon",
 				text = {
-					"Choisissez de {C:attention}#1#{} à",
+					"Choisissez {C:attention}#1#{} parmi",
 					"{C:attention}#2# cartes {C:joker}Joker{}",
 				},
 			},
 			p_celestial_jumbo = {
 				name = "Paquet Jumbo Céleste",
 				text = {
-					"Choisissez de {C:attention}#1#{} à",
+					"Choisissez {C:attention}#1#{} parmi",
 					"{C:attention}#2# cartes {C:planet} Planète{} à",
 					"utiliser immédiatement",
 				},
@@ -2082,7 +2083,7 @@ return {
 			p_celestial_mega = {
 				name = "Paquet Méga-Céleste",
 				text = {
-					"Choisissez de {C:attention}#1#{} à",
+					"Choisissez {C:attention}#1#{} parmi",
 					"{C:attention}#2# cartes {C:planet} Planète{} à",
 					"utiliser immédiatement",
 				},
@@ -2090,7 +2091,7 @@ return {
 			p_celestial_normal = {
 				name = "Paquet Céleste",
 				text = {
-					"Choisissez de {C:attention}#1#{} à",
+					"Choisissez {C:attention}#1#{} parmi",
 					"{C:attention}#2# cartes {C:planet} Planète{} à",
 					"utiliser immédiatement",
 				},
@@ -2098,7 +2099,7 @@ return {
 			p_spectral_jumbo = {
 				name = "Paquet Jumbo Spectral",
 				text = {
-					"Choisissez de {C:attention}#1#{} à",
+					"Choisissez {C:attention}#1#{} parmi",
 					"{C:attention}#2# cartes {C:spectral}Spectrales{} à",
 					"utiliser immédiatement",
 				},
@@ -2106,7 +2107,7 @@ return {
 			p_spectral_mega = {
 				name = "Paquet Méga-Spectral",
 				text = {
-					"Choisissez de {C:attention}#1#{} à",
+					"Choisissez {C:attention}#1#{} parmi",
 					"{C:attention}#2# cartes {C:spectral}Spectrales{} à",
 					"utiliser immédiatement",
 				},
@@ -2114,7 +2115,7 @@ return {
 			p_spectral_normal = {
 				name = "Paquet Spectral",
 				text = {
-					"Choisissez de {C:attention}#1#{} à",
+					"Choisissez {C:attention}#1#{} parmi",
 					"{C:attention}#2# cartes {C:spectral}Spectrales{} à",
 					"utiliser immédiatement",
 				},
@@ -2122,7 +2123,7 @@ return {
 			p_standard_jumbo = {
 				name = "Paquet Jumbo Standard",
 				text = {
-					"Choisissez de {C:attention}#1#{} à",
+					"Choisissez {C:attention}#1#{} parmi",
 					"{C:attention}#2# cartes{C:attention} à jouer{} à",
 					"ajouter à votre jeu",
 				},
@@ -2130,7 +2131,7 @@ return {
 			p_standard_mega = {
 				name = "Paquet Méga-Standard",
 				text = {
-					"Choisissez de {C:attention}#1#{} à",
+					"Choisissez {C:attention}#1#{} parmi",
 					"{C:attention}#2# cartes{C:attention} à jouer{} à",
 					"ajouter à votre jeu",
 				},
@@ -2138,7 +2139,7 @@ return {
 			p_standard_normal = {
 				name = "Paquet Standard",
 				text = {
-					"Choisissez de {C:attention}#1#{} à",
+					"Choisissez {C:attention}#1#{} parmi",
 					"{C:attention}#2# cartes{C:attention} à jouer{} à",
 					"ajouter à votre jeu",
 				},
@@ -2175,7 +2176,7 @@ return {
 			red_seal = {
 				name = "Sceau rouge",
 				text = {
-					"Déclenchez à nouveau cette",
+					"Déclenche à nouveau cette",
 					"carte {C:attention}1{} fois",
 				},
 			},
@@ -2185,6 +2186,12 @@ return {
 					"Joker utilisé",
 					"pour gagner en difficulté",
 					"{C:attention}Mise{C:attention}rouge{}",
+				},
+			},
+			remove_negative = {
+				name = "Négatif",
+				text = {
+					"{C:inactive,s:0.9}(Supprime le {C:dark_edition,s:0.9}Negatif{C:inactive,s:0.9} de la copie)",
 				},
 			},
 			undiscovered_booster = {
@@ -2233,7 +2240,7 @@ return {
 			undiscovered_tag = {
 				name = "Non découvert",
 				text = {
-					"Utilisez cette étiquette dans",
+					"Utilisez ce badge dans",
 					"une partie sans seed pour",
 					"connaître son effet",
 				},
@@ -2251,7 +2258,7 @@ return {
 				name = "Non découvert",
 				text = {
 					"Échangez ce",
-					"bon d'achat dans une partie",
+					"coupon dans une partie",
 					"sans seed pour",
 					"connaître son effet",
 				},
@@ -2383,15 +2390,15 @@ return {
 			c_ankh = {
 				name = "Ankh",
 				text = {
-					"Créez une copie d'un",
-					"{C:attention}Joker{} aléatoire, détruisez",
+					"Crée une copie d'un",
+					"{C:attention}Joker{} aléatoire, détruit",
 					"tous les autres Jokers",
 				},
 			},
 			c_aura = {
 				name = "Aura",
 				text = {
-					"Ajoutez un effet {C:dark_edition}Aluminium{}, {C:dark_edition}Holographique{}",
+					"Ajoute un effet {C:dark_edition}Brillant{}, {C:dark_edition}Holographique{}",
 					"ou {C:dark_edition}Polychrome{} à",
 					"{C:attention}1{} carte choisie dans votre main",
 				},
@@ -2399,7 +2406,7 @@ return {
 			c_black_hole = {
 				name = "Trou noir",
 				text = {
-					"Augmentez chaque",
+					"Augmente chaque",
 					"{C:legendary,E:1}main de poker",
 					"d'{C:attention}1{} niveau",
 				},
@@ -2407,7 +2414,7 @@ return {
 			c_cryptid = {
 				name = "Cryptide",
 				text = {
-					"Créez {C:attention}#1#{} copies",
+					"Crée {C:attention}#1#{} copies",
 					"d'{C:attention}une{} carte sélectionnée",
 					"dans votre main",
 				},
@@ -2415,7 +2422,7 @@ return {
 			c_deja_vu = {
 				name = "Déjà vu",
 				text = {
-					"Ajoutez un {C:red}Sceau rouge{}",
+					"Ajoute un {C:red}Sceau rouge{}",
 					"à {C:attention}1{} carte sélectionnée",
 					"dans votre main",
 				},
@@ -2423,7 +2430,7 @@ return {
 			c_ectoplasm = {
 				name = "Ectoplasme",
 				text = {
-					"Ajoutez un {C:dark_edition}Négatif{} à",
+					"Ajoute {C:dark_edition}Négatif{}",
 					"à un {C:attention}Joker{} aléatoire,",
 					"Taille de la main {C:red}-1{}",
 				},
@@ -2431,25 +2438,25 @@ return {
 			c_familiar = {
 				name = "Familier",
 				text = {
-					"Détruisez {C:attention}1{} carte",
-					"aléatoire de votre main,",
-					"ajoutez {C:attention}#1#{} cartes {C:attention}Figure Améliorées{}",
+					"Détruit {C:attention}1{} carte",
+					"sélectionnée de votre main,",
+					"ajoute {C:attention}#1#{} cartes {C:attention}Figure Améliorées{}",
 					"aléatoires à votre main",
 				},
 			},
 			c_grim = {
-				name = "Grinçant",
+				name = "Sinistre",
 				text = {
-					"Détruisez {C:attention}1{} carte",
+					"Détruit {C:attention}1{} carte",
 					"aléatoire de votre main,",
-					"ajoutez {C:attention}#1#{}",
+					"ajoute {C:attention}#1#{}As améliorés",
 					"aléatoires à votre main",
 				},
 			},
 			c_hex = {
 				name = "Maléfice",
 				text = {
-					"Ajoutez {C:dark_edition}Polychrome{} à un",
+					"Ajoute {C:dark_edition}Polychrome{} à un",
 					"{C:attention}Joker{} aléatoire, détruisez",
 					"tous les autres Jokers",
 				},
@@ -2465,16 +2472,16 @@ return {
 			c_incantation = {
 				name = "Incantation",
 				text = {
-					"Détruisez {C:attention}1{} carte",
-					"aléatoire de votre main, ajoutez {C:attention}#1#",
-					"{C:attention}cartes{} {C:attention}numérotées Améliorées",
+					"Détruit {C:attention}1{} carte",
+					"aléatoire de votre main, ajoute {C:attention}#1#",
+					"{C:attention}cartes{} {C:attention}numérotées améliorées",
 					"aléatoires à votre main",
 				},
 			},
 			c_medium = {
 				name = "Médium",
 				text = {
-					"Ajoutez un {C:purple}Sceau violet{}",
+					"Ajoute un {C:purple}Sceau violet{}",
 					"à {C:attention}1{} carte sélectionnée",
 					"dans votre main",
 				},
@@ -2507,15 +2514,15 @@ return {
 			c_talisman = {
 				name = "Talisman",
 				text = {
-					"Ajoutez un {C:attention}Sceau d'or{}",
+					"Ajoute un {C:attention}Sceau d'or{}",
 					"à {C:attention}1{} carte",
 					"aléatoire de votre main",
 				},
 			},
 			c_trance = {
-				name = "Trance",
+				name = "Transe",
 				text = {
-					"Ajoutez un {C:blue}Sceau bleu{}",
+					"Ajoute un {C:blue}Sceau bleu{}",
 					"à {C:attention}1{} carte sélectionnée",
 					"dans votre main",
 				},
@@ -2563,7 +2570,7 @@ return {
 			stake_orange = {
 				name = "Mise orange",
 				text = {
-					"Les {C:attention}Paquets Booster{} coûtent",
+					"Les {C:attention}Boosters{} coûtent",
 					"{C:money}1 ${} de plus par mise initiale",
 					"{s:0.8}Applique toutes les mises précédentes",
 				},
@@ -2593,72 +2600,72 @@ return {
 		},
 		Tag = {
 			tag_boss = {
-				name = "Étiquette de boss",
+				name = "Badge de boss",
 				text = {
-					"Effectue un nouveau lancer de la",
-					"{C:attention}Boss Blinde",
+					"Effectue un renouvellement de la",
+					"{C:attention}Blinde Boss",
 				},
 			},
 			tag_buffoon = {
-				name = "Étiquette de bouffon",
+				name = "Badge de bouffon",
 				text = {
 					"Octroie un",
-					"{C:attention}Paquet Bouffon",
+					"{C:attention}Paquet Méga-Bouffon",
 				},
 			},
 			tag_charm = {
-				name = "Étiquette de charme",
+				name = "Badge de charme",
 				text = {
 					"Octroie un",
 					"{C:tarot}Paquet Méga-Arcana",
 				},
 			},
 			tag_coupon = {
-				name = "Étiquette de coupon",
+				name = "Badge de coupon",
 				text = {
 					"Les cartes initiales et",
-					"les Paquets Booster du",
+					"les Boosters du",
 					"prochain magasin sont gratuits",
 				},
 			},
 			tag_d_six = {
-				name = "Étiquette D6",
+				name = "Badge D6",
 				text = {
-					"Les nouveaux lancers du prochain magasin",
+					"Les renouvellements du prochain magasin",
 					"commencent à {C:money}0 $",
 				},
 			},
 			tag_double = {
-				name = "Étiquette double",
+				name = "Badge double",
 				text = {
-					"Octroie une copie de la",
-					"prochaine {C:attention}Étiquette{} sélectionnée",
-					"{s:0.8}en excluant {s:0.8,C:attention}l'Étiquette double",
+					"Octroie une copie du",
+					"prochain {C:attention}Badge{} sélectionné",
+					"{s:0.8}en excluant {s:0.8,C:attention}le badge double",
 				},
 			},
 			tag_economy = {
-				name = "Étiquette économique",
+				name = "Badge économique",
 				text = {
 					"Double votre argent",
 					"{C:inactive}({C:money}#1# ${C:inactive} au maximum)",
 				},
 			},
 			tag_ethereal = {
-				name = "Étiquette éthérée",
+				name = "Badge éthéré",
 				text = {
 					"Octroie un",
 					"{C:planet}Paquet Spectral",
 				},
 			},
 			tag_foil = {
-				name = "Étiquette d'aluminium",
+				name = "Badge brillant",
 				text = {
 					"Le magasin possède un",
-					"{C:dark_edition}Joker d'aluminium",
+					"{C:dark_edition}Joker brillant",
 				},
 			},
 			tag_garbage = {
-				name = "Étiquette moisie",
+				name = "Badge moisi",
 				text = {
 					"Octroie {C:money}#1# ${} par",
 					"{C:red}défausse{} dans cette partie",
@@ -2666,7 +2673,7 @@ return {
 				},
 			},
 			tag_handy = {
-				name = "Étiquette pratique",
+				name = "Badge pratique",
 				text = {
 					"Octroie {C:money}#1# ${} par",
 					"{C:blue}main{} jouée dans cette partie",
@@ -2674,64 +2681,64 @@ return {
 				},
 			},
 			tag_holo = {
-				name = "Étiquette holographique",
+				name = "Badge holographique",
 				text = {
 					"Le magasin possède un",
 					"{C:dark_edition}Joker holographique",
 				},
 			},
 			tag_investment = {
-				name = "Étiquette d'investissement",
+				name = "Badge d'investissement",
 				text = {
 					"Après avoir battu",
-					"la Boss Blinde,",
+					"la Blinde Boss,",
 					"gagnez {C:money}#1# $",
 				},
 			},
 			tag_juggle = {
-				name = "Étiquette de jongleur",
+				name = "Badge de jongleur",
 				text = {
 					"{C:attention}+#1#{} à la taille de la main",
 					"à la prochaine manche",
 				},
 			},
 			tag_meteor = {
-				name = "Étiquette de météore",
+				name = "Badge de météore",
 				text = {
 					"Octroie un",
 					"{C:planet}Paquet Méga-Céleste",
 				},
 			},
 			tag_negative = {
-				name = "Étiquette négative",
+				name = "Badge négatif",
 				text = {
 					"Le magasin possède un",
 					"{C:dark_edition}Joker négatif",
 				},
 			},
 			tag_orbital = {
-				name = "Étiquette orbitale",
+				name = "Badge orbital",
 				text = {
-					"Augmentez {C:attention}#1#",
+					"Augmente {C:attention}#1#",
 					"de {C:attention}#2# niveaux",
 				},
 			},
 			tag_polychrome = {
-				name = "Étiquette polychrome",
+				name = "Badge polychrome",
 				text = {
 					"Le magasin possède un",
 					"{C:dark_edition}Joker polychrome",
 				},
 			},
 			tag_rare = {
-				name = "Étiquette rare",
+				name = "Badge rare",
 				text = {
 					"Le magasin possède un",
 					"{C:red}Joker rare",
 				},
 			},
 			tag_skip = {
-				name = "Étiquette de rapidité",
+				name = "Badge de rapidité",
 				text = {
 					"Gagnez {C:money}#1# ${} par blinde",
 					"passée lors de cette partie",
@@ -2739,14 +2746,14 @@ return {
 				},
 			},
 			tag_standard = {
-				name = "Étiquette standard",
+				name = "Badge standard",
 				text = {
 					"Octroie un",
 					"{C:attention}Paquet Méga-Standard",
 				},
 			},
 			tag_top_up = {
-				name = "Étiquette d'appoint",
+				name = "Badge d'appoint",
 				text = {
 					"Crée jusqu'à {C:attention}#1#",
 					"Jokers {C:blue}Communs{}",
@@ -2754,23 +2761,23 @@ return {
 				},
 			},
 			tag_uncommon = {
-				name = "Étiquette peu commune",
+				name = "Badge peu commun",
 				text = {
 					"Le magasin possède un",
 					"{C:green}Joker peu commun",
 				},
 			},
 			tag_voucher = {
-				name = "Étiquette de bon d'achat",
+				name = "Badge de coupon",
 				text = {
-					"Ajoute un {C:voucher}Bon d'achat",
+					"Ajoute un {C:voucher}Coupon",
 					"au prochain magasin",
 				},
 			},
 		},
 		Tarot = {
 			c_chariot = {
-				name = "Le chariot",
+				name = "Le Chariot",
 				text = {
 					"Améliore {C:attention}#1#{} carte",
 					"sélectionnée en",
@@ -2778,7 +2785,7 @@ return {
 				},
 			},
 			c_death = {
-				name = "La mort",
+				name = "La Mort",
 				text = {
 					"Sélectionnez {C:attention}#1#{} cartes,",
 					"la carte de {C:attention}gauche{}",
@@ -2787,7 +2794,7 @@ return {
 				},
 			},
 			c_devil = {
-				name = "Le diable",
+				name = "Le Diable",
 				text = {
 					"Améliore {C:attention}#1#{} carte",
 					"sélectionnée en",
@@ -2795,7 +2802,7 @@ return {
 				},
 			},
 			c_emperor = {
-				name = "L'empereur",
+				name = "L'Empereur",
 				text = {
 					"Crée jusqu'à {C:attention}#1#",
 					"cartes de {C:tarot}Tarot{} aléatoires",
@@ -2803,7 +2810,7 @@ return {
 				},
 			},
 			c_empress = {
-				name = "L'impératrice",
+				name = "L'Impératrice",
 				text = {
 					"Améliore {C:attention}#1#",
 					"cartes sélectionnées en",
@@ -2811,23 +2818,23 @@ return {
 				},
 			},
 			c_fool = {
-				name = "Le mat",
+				name = "Le Mat",
 				text = {
-					"Crée la",
-					"carte de {C:tarot}Tarot{} ou {C:planet}Planète{} utilisée en dernier",
+					"Crée la dernière",
+					"carte de {C:tarot}Tarot{} ou {C:planet}Planète{} utilisée",
 					"pendant cette partie,",
-					"En excluant {s:0.8,C:tarot}Le mat{s:0.8}",
+					"excepté {s:0.8,C:tarot}Le Mat{s:0.8}",
 				},
 			},
 			c_hanged_man = {
-				name = "Le pendu",
+				name = "Le Pendu",
 				text = {
 					"Détruit un maximum de",
 					"{C:attention}#1#{} cartes sélectionnées",
 				},
 			},
 			c_heirophant = {
-				name = "Le hiérophante",
+				name = "Le Pape",
 				text = {
 					"Améliore {C:attention}#1#",
 					"cartes sélectionnées en",
@@ -2835,14 +2842,14 @@ return {
 				},
 			},
 			c_hermit = {
-				name = "L'ermite",
+				name = "L'Ermite",
 				text = {
 					"Double l'argent",
 					"{C:inactive}({C:money}#1# ${C:inactive} au maximum)",
 				},
 			},
 			c_high_priestess = {
-				name = "La papesse",
+				name = "La Papesse",
 				text = {
 					"Crée jusqu'à {C:attention}#1#",
 					"cartes {C:planet}Planète{} aléatoires",
@@ -2850,7 +2857,7 @@ return {
 				},
 			},
 			c_judgement = {
-				name = "Le jugement",
+				name = "Le Jugement",
 				text = {
 					"Crée une carte",
 					"{C:attention}Joker{} aléatoire",
@@ -2858,7 +2865,7 @@ return {
 				},
 			},
 			c_justice = {
-				name = "Justice",
+				name = "La Justice",
 				text = {
 					"Améliore {C:attention}#1#{} carte",
 					"sélectionnée en",
@@ -2866,7 +2873,7 @@ return {
 				},
 			},
 			c_lovers = {
-				name = "Les amoureux",
+				name = "L'Amoureux",
 				text = {
 					"Améliore {C:attention}#1#{} carte",
 					"sélectionnée en",
@@ -2874,7 +2881,7 @@ return {
 				},
 			},
 			c_magician = {
-				name = "Le magicien",
+				name = "Le Batleur",
 				text = {
 					"Améliore {C:attention}#1#{} carte",
 					"sélectionnée en",
@@ -2882,7 +2889,7 @@ return {
 				},
 			},
 			c_moon = {
-				name = "La lune",
+				name = "La Lune",
 				text = {
 					"Convertit jusqu'à",
 					"{C:attention}#1#{} cartes sélectionnées",
@@ -2890,7 +2897,7 @@ return {
 				},
 			},
 			c_star = {
-				name = "L'étoile",
+				name = "L'Étoile",
 				text = {
 					"Convertit jusqu'à",
 					"{C:attention}#1#{} cartes sélectionnées",
@@ -2898,7 +2905,7 @@ return {
 				},
 			},
 			c_strength = {
-				name = "La force",
+				name = "La Force",
 				text = {
 					"Augmente la valeur",
 					"d'un maximum de {C:attention}#1#{} cartes",
@@ -2906,7 +2913,7 @@ return {
 				},
 			},
 			c_sun = {
-				name = "Le soleil",
+				name = "Le Soleil",
 				text = {
 					"Convertit jusqu'à",
 					"{C:attention}#1#{} cartes sélectionnées",
@@ -2914,7 +2921,7 @@ return {
 				},
 			},
 			c_temperance = {
-				name = "La tempérance",
+				name = "La Tempérance",
 				text = {
 					"Octroie la valeur de vente",
 					"totale de tous les",
@@ -2923,7 +2930,7 @@ return {
 				},
 			},
 			c_tower = {
-				name = "La maison Dieu",
+				name = "La Maison Dieu",
 				text = {
 					"Améliore {C:attention}#1#{} carte",
 					"sélectionnée en",
@@ -2931,16 +2938,16 @@ return {
 				},
 			},
 			c_wheel_of_fortune = {
-				name = "La roue de la fortune",
+				name = "La Roue de Fortune",
 				text = {
 					"{C:green}#1# chance(s) sur #2#{} d'ajouter une édition",
-					"{C:dark_edition}Aluminium{}, {C:dark_edition}Holographique{} ou",
+					"{C:dark_edition}Brillantes{}, {C:dark_edition}Holographique{} ou",
 					"{C:dark_edition}Polychrome{}",
 					"à un {C:attention}Joker au hasard",
 				},
 			},
 			c_world = {
-				name = "Le monde",
+				name = "Le Monde",
 				text = {
 					"Convertit jusqu'à",
 					"{C:attention}#1#{} cartes sélectionnées",
@@ -2982,7 +2989,7 @@ return {
 			v_directors_cut = {
 				name = "Director's Cut",
 				text = {
-					"Relancez la Boss Blinde",
+					"Renouveler la Blinde Boss",
 					"{C:attention}1{} fois par mise initiale,",
 					"{C:money}#1# ${} par lancer",
 				},
@@ -2990,14 +2997,14 @@ return {
 			v_glow_up = {
 				name = "Bonne mine",
 				text = {
-					"Les cartes {C:dark_edition}Aluminium{}, {C:dark_edition}Holographiques{} et",
+					"Les cartes {C:dark_edition}Brillantes{}, {C:dark_edition}Holographiques{} et",
 					"{C:dark_edition}Polychromes{}",
 					"apparaissent {C:attention}#1#x{} plus souvent",
 				},
 				unlock = {
 					"Vous devez avoir au moins {C:attention}#1#",
 					"cartes {C:attention}Joker{} en édition",
-					"{C:dark_edition}Aluminium{}, {C:dark_edition}Holographique{} ou",
+					"{C:dark_edition}Brillantes{}, {C:dark_edition}Holographique{} ou",
 					"{C:dark_edition}Polychrome{}",
 				},
 			},
@@ -3021,7 +3028,7 @@ return {
 			v_hone = {
 				name = "Aiguisage",
 				text = {
-					"Les cartes {C:dark_edition}Aluminium{}, {C:dark_edition}Holographiques{} et",
+					"Les cartes {C:dark_edition}Brillantes{}, {C:dark_edition}Holographiques{} et",
 					"{C:dark_edition}Polychromes{}",
 					"apparaissent {C:attention}#1#x{} plus souvent",
 				},
@@ -3048,7 +3055,7 @@ return {
 				},
 				unlock = {
 					"Utilisez au moins",
-					"{C:attention}#1# cartes {C:voucher}Bon d'achat{}",
+					"{C:attention}#1# cartes {C:voucher}Coupon(s){}",
 					"en une partie",
 				},
 			},
@@ -3063,7 +3070,7 @@ return {
 			v_money_tree = {
 				name = "Arbre à monnaie",
 				text = {
-					"Augmentez le plafond des",
+					"Augmente le plafond des",
 					"intérêts perçus",
 					"par manche de {C:money}#1# ${}",
 				},
@@ -3144,7 +3151,7 @@ return {
 			v_palette = {
 				name = "Palette",
 				text = {
-					"Vous pouvez tenir {C:attention}+#1#{} carte",
+					"{C:attention}+#1#{} à la taille de la main",
 					"dans votre main",
 					"{C:attention}+#1#{} à la taille de la main",
 				},
@@ -3212,28 +3219,28 @@ return {
 			v_reroll_glut = {
 				name = "Comme s'il en pleuvait",
 				text = {
-					"Les nouveaux lancers coûtent",
+					"Les renouvellements coûtent",
 					"{C:money}#1# ${} moins cher",
 				},
 				unlock = {
 					"Effectuez un total de",
-					"{C:attention}#1#{} nouveaux lancers dans le magasin",
+					"{C:attention}#1#{} renouvellements dans le magasin",
 					"{C:inactive}(#2#)",
 				},
 			},
 			v_reroll_surplus = {
-				name = "Lancers en pagaille",
+				name = "Renouvellement en pagaille",
 				text = {
-					"Les nouveaux lancers coûtent",
+					"Les renouvellements coûtent",
 					"{C:money}#1# ${} moins cher",
 				},
 			},
 			v_retcon = {
 				name = "Retcon",
 				text = {
-					"Relancez la Boss Blinde",
+					"Renouveler la Blinde Boss",
 					"un nombre {C:attention}illimité{} de fois,",
-					"{C:money}#1# ${} par nouveau lancer",
+					"{C:money}#1# ${} par relance",
 				},
 				unlock = {
 					"Découvrez",
@@ -3243,7 +3250,7 @@ return {
 			v_seed_money = {
 				name = "Capital de départ",
 				text = {
-					"Augmentez le plafond des",
+					"Augmente le plafond des",
 					"intérêts perçus",
 					"par manche de {C:money}#1# ${}",
 				},
@@ -3320,7 +3327,7 @@ return {
 			completionist = "Découvrez 100 % de votre collection",
 			completionist_plus = "Gagnez avec tous les jeux en difficulté Mise d'or",
 			completionist_plus_plus = "Gagnez un Autocollant d'or sur chaque Joker",
-			extreme_couponer = "Découvrez tous les bons d'achat",
+			extreme_couponer = "Découvrez tous les coupons",
 			flushed = "Jouez une couleur avec 5 cartes Libres",
 			heads_up = "Gagnez une partie",
 			high_stakes = "Gagnez une partie en difficulté Mise d'or au minimum",
@@ -3329,14 +3336,14 @@ return {
 			mid_stakes = "Gagnez une partie en difficulté Mise noire au minimum",
 			nest_egg = "Vous devez accumuler 400 $ ou plus en une seule partie",
 			retrograde = "Faites passer une main de poker au niveau 10",
-			roi = "Achetez 5 bons d'achat avant la mise initiale 4",
+			roi = "Achetez 5 coupons avant la mise initiale 4",
 			royale = "Jouez une Quinte flush royale",
 			rule_bender = "Terminez n'importe quelle partie de Défi",
 			rule_breaker = "Terminez toutes les parties de Défi",
 			shattered = "Cassez 2 cartes de verre en une seule main",
 			speedrunner = "Gagnez une partie en 12 manches ou moins",
 			tiny_hands = "Réduisez votre jeu à 20 cartes ou moins",
-			you_get_what_you_get = "Gagnez une partie sans effectuer aucun nouveau lancer dans le magasin",
+			you_get_what_you_get = "Gagnez une partie sans effectuer aucun renouvellement dans le magasin",
 		},
 		achievement_names = {
 			_100000k = "100 000 000",
@@ -3373,7 +3380,7 @@ return {
 		},
 		blind_states = {
 			Current = "Actuel",
-			Defeated = "Battu",
+			Defeated = "Battue",
 			Select = "Sélectionner",
 			Selected = "Sélectionné",
 			Skipped = "Passé",
@@ -3406,9 +3413,9 @@ return {
 			b_and_use = "ET UTILISER",
 			b_back = "Retour",
 			b_blinds = "Blindes",
-			b_booster_packs = "Paquets Booster",
+			b_booster_packs = "Boosters",
 			b_buy = "ACHETER",
-			b_cash_out = "Convertir",
+			b_cash_out = "Encaisser",
 			b_challenges = "Défis",
 			b_collection = "Collection",
 			b_collection_cap = "COLLECTION",
@@ -3423,7 +3430,7 @@ return {
 			b_delete_profile = "Supprimer un profil",
 			b_discard = "Défausser",
 			b_editions = "Éditions",
-			b_endless = "Mode Interminable",
+			b_endless = "Mode Infini",
 			b_enhanced_cards = "Cartes améliorées",
 			b_full_deck = "Jeu complet",
 			b_high_contrast_cards = "Cartes à haut contraste",
@@ -3448,7 +3455,7 @@ return {
 			b_quit_cap = "QUITTER",
 			b_redeem = "ÉCHANGER",
 			b_remaining = "Restant",
-			b_reroll_boss = "Nouveau lancer de Boss",
+			b_reroll_boss = "Renouvellement du Boss",
 			b_reset_profile = "Réinitialiser un profil",
 			b_restrictions = "Restrictions",
 			b_rules = "Règles",
@@ -3491,13 +3498,13 @@ return {
 			b_stat_planets = "Planètes",
 			b_stat_spectrals = "Spectrales",
 			b_stat_tarots = "Tarots",
-			b_stat_vouchers = "Bons d'achat",
-			b_stats = "Stats",
-			b_tags = "Étiquettes",
+			b_stat_vouchers = "Coupons",
+			b_stats = "Statistiques",
+			b_tags = "Badges",
 			b_tarot_cards = "Cartes de Tarot",
 			b_unlock_all = "Tout débloquer",
 			b_use = "UTILISER",
-			b_vouchers = "Bons d'achat",
+			b_vouchers = "Coupons",
 			b_wishlist = "Mettre dans la liste de souhaits Steam",
 			k_aces = "As",
 			k_achievement = "Succès",
@@ -3512,7 +3519,7 @@ return {
 			k_arcana_pack = "Paquet Arcana",
 			k_balanced = "Équilibré",
 			k_banned_cards = "Cartes bannies",
-			k_banned_tags = "Étiquettes bannies",
+			k_banned_tags = "Badges bannis",
 			k_base_cap = "BASE",
 			k_base_cards = "Cartes de base",
 			k_best_hand = "Meilleure main",
@@ -3572,6 +3579,7 @@ return {
 			k_no_space_ex = "Pas de place !",
 			k_none = "Aucun",
 			k_nope_ex = "Non !",
+			k_not_allowed_ex = "Non autorisé !",
 			k_not_discovered = "Non découvert",
 			k_numbered_cards = "Cartes numérotées",
 			k_or = "ou",
@@ -3591,7 +3599,7 @@ return {
 			k_rank = "Valeur",
 			k_rare = "Rare",
 			k_redeemed_ex = "Échangé !",
-			k_reroll = "Nouveau lancer",
+			k_reroll = "Changer",
 			k_reset = "Réinitialiser",
 			k_reward = "Récompense",
 			k_round = "Manche",
@@ -3614,11 +3622,11 @@ return {
 			k_undisovered = "Non découvert",
 			k_unknown = "?????",
 			k_unlocked_ex = "Débloqué !",
-			k_upgrade_ex = "Améliorer !",
+			k_upgrade_ex = "Amélioré !",
 			k_val_up = "Valeur supérieure !",
 			k_view = "Afficher",
-			k_voucher = "Bon d'achat",
-			k_vouchers_cap = "BONS D'ACHAT",
+			k_voucher = "Coupon",
+			k_vouchers_cap = "COUPONS",
 			k_wins = "Victoires",
 			k_x_base = "X la base",
 			ml_bloom_opt = { "Désactivé", "Activé" },
@@ -3690,7 +3698,7 @@ return {
 			ph_click_confirm = "Cliquez à nouveau pour confirmer",
 			ph_deck_preview_effective = "Total effectif grâce aux Jokers, aux Blindes et aux améliorations de cartes",
 			ph_deck_preview_stones = "Pierres",
-			ph_defeat_the_boss = "Battez la Boss Blinde",
+			ph_defeat_the_boss = "Battez la Blinde Boss",
 			ph_defeat_this_blind_1 = "Battez cette Blinde",
 			ph_defeat_this_blind_2 = "pour la découvrir",
 			ph_demo_thanks_1 = "Merci d'avoir joué à la",
@@ -3700,7 +3708,7 @@ return {
 			ph_most_played = "(main la plus jouée)",
 			ph_mr_bones = "Sauvé par M. Bones",
 			ph_no_boss_active = "aucun boss actif",
-			ph_no_vouchers = "Pas de bons utilisés pendant cette partie",
+			ph_no_vouchers = "Pas de coupons utilisés pendant cette partie",
 			ph_score_at_least = "Faire un score d'au moins",
 			ph_score_cards_discarded = "Cartes défaussées",
 			ph_score_cards_played = "Cartes jouées",
@@ -3710,16 +3718,17 @@ return {
 			ph_score_hand = "Meilleure main",
 			ph_score_new_collection = "Nouvelles découvertes",
 			ph_score_poker_hand = "Main la plus jouée",
-			ph_score_times_rerolled = "Nombre de nouveaux lancers",
+			ph_score_times_rerolled = "Nombre de renouvellements ",
+			ph_select_challenge = "Sélectionnez un défi",
 			ph_sneak_peek = "Coup d'œil furtif",
 			ph_stat_consumable = "Nombre de fois où cette carte a été utilisée",
 			ph_stat_joker = "Nombre total de manches effectuées avec cette carte",
-			ph_stat_voucher = "Nombre de fois où ce bon d'achat a été utilisé",
+			ph_stat_voucher = "Nombre de fois où ce coupon a été utilisé",
 			ph_unscored_hand = "La main ne marquera pas de points",
-			ph_up_ante_1 = "Atteindre la mise initiale",
-			ph_up_ante_2 = "Augmenter toutes les Blindes",
-			ph_up_ante_3 = "Actualiser les Blindes",
-			ph_vouchers_redeemed = "Bons utilisés pendant cette partie",
+			ph_up_ante_1 = "Augmente la mise initiale",
+			ph_up_ante_2 = "Augmente toutes les Blindes",
+			ph_up_ante_3 = "Actualise les Blindes",
+			ph_vouchers_redeemed = "Coupons utilisés pendant cette partie",
 			ph_you_win = "VOUS AVEZ GAGNÉ !",
 			ph_you_win_demo = "VOUS AVEZ TERMINÉ LA DÉMO !",
 		},
@@ -3728,9 +3737,9 @@ return {
 			collection = "Collection",
 			current_streak = "",
 			furthest_ante = "Plus grosse mise initiale",
-			furthest_round = "Plus grosse manche",
+			furthest_round = "Plus haute manche",
 			hand = "Meilleure main",
-			most_money = "Le plus d'argent",
+			most_money = "Plus d'argent possédé",
 			poker_hand = "Main la plus jouée",
 			win_streak = "Meilleure série de victoires",
 		},
@@ -3738,7 +3747,7 @@ return {
 			blue_seal = "Sceau bleu",
 			common = "Commun",
 			eternal = "Éternel",
-			foil = "Aluminium",
+			foil = "Brillante",
 			gold_seal = "Sceau d'or",
 			holographic = "Holographique",
 			legendary = "Légendaire",
@@ -3753,7 +3762,7 @@ return {
 			red_seal = "Sceau rouge",
 			tarot = "Tarot",
 			uncommon = "Peu commun",
-			voucher = "Bon d'achat",
+			voucher = "Coupon",
 		},
 		poker_hand_descriptions = {
 			["Five of a Kind"] = {
@@ -3785,14 +3794,14 @@ return {
 				"être jouées avec trois autres cartes non marquées",
 			},
 			["Royal Flush"] = {
-				"5 cartes à la suite {valeurs consécutifs} avec",
+				"5 cartes à la suite {valeurs consécutives} avec",
 				"partageant la même couleur",
 			},
 			["Straight"] = {
 				"5 cartes dont les valeurs se suivent",
 			},
 			["Straight Flush"] = {
-				"5 cartes à la suite {valeurs consécutifs} avec",
+				"5 cartes à la suite {valeurs consécutives} avec",
 				"partageant la même couleur",
 			},
 			["Three of a Kind"] = {
@@ -3810,14 +3819,14 @@ return {
 			["Flush Five"] = "Flush Five",
 			["Flush House"] = "Flush House",
 			["Four of a Kind"] = "Carré",
-			["Full House"] = "Full House",
+			["Full House"] = "Main pleine",
 			["High Card"] = "Carte Haute",
 			["Pair"] = "Paire",
 			["Royal Flush"] = "Quinte flush royale",
 			["Straight"] = "Suite",
 			["Straight Flush"] = "Quinte flush",
 			["Three of a Kind"] = "Brelan",
-			["Two Pair"] = "Deux paires",
+			["Two Pair"] = "Double paire",
 		},
 		quips = {
 			dq_1 = {
@@ -3914,7 +3923,7 @@ return {
 			Ace = "As",
 			Jack = "Valet",
 			King = "Roi",
-			Queen = "Reine",
+			Queen = "Dame",
 		},
 		suits_plural = {
 			Clubs = "Trèfles",
@@ -3931,23 +3940,23 @@ return {
 		tutorial = {
 			bb_1 = {
 				"La {C:attention}Grosse Blinde",
-				"vous rapportera de l'argent",
+				"vous rapportera de l'argent.",
 			},
 			bb_2 = {
 				"Mais vous pouvez choisir de {C:attention}la passer",
-				"pour obtenir une {C:attention}Étiquette{} ! Chaque",
-				"{C:attention}Étiquette{} possède un effet unique",
+				"pour obtenir un {C:attention}Badge{} ! Chaque",
+				"{C:attention}Badge{} possède un effet unique.",
 			},
 			bb_3 = {
 				"Néanmoins, vous devez garder un œil",
-				"sur la {C:attention}Boss Blinde{}. Elle",
+				"sur la {C:attention}Blinde Boss{}. Elle",
 				"a une capacité dont il",
 				"vous faudra tenir compte.",
 			},
 			bb_4 = {
 				"Si vous la battez, la",
 				"{C:attention}Mise initiale{} augmente et toutes les",
-				"{C:attention}Blindes{} deviennent plus difficiles",
+				"{C:attention}Blindes{} deviennent plus difficiles.",
 			},
 			bb_5 = {
 				"Battez la {C:attention}Mise initiale{} #1# pour gagner.",
@@ -3966,7 +3975,7 @@ return {
 				"Regardez vos {C:attention}mains de Poker",
 				"dans la zone {C:attention}Infos sur la partie{},",
 				"ainsi que d'autres informations",
-				"sur votre partie en cours",
+				"sur votre partie en cours.",
 			},
 			fh_4 = {
 				"Les cartes vous rapportent",
@@ -3976,7 +3985,7 @@ return {
 			fh_5 = {
 				"À présent, choisissez jusqu'à",
 				"{C:attention}5{} cartes à jouer",
-				"et appuyez sur {C:blue}Jouer la main",
+				"et appuyez sur {C:blue}Jouer la main.",
 			},
 			fh_6 = {
 				"Vous pouvez également {C:red}Défausser{} jusqu'à",
@@ -3987,7 +3996,7 @@ return {
 			fh_7 = {
 				"Attention ! Vous ne disposez que d'un",
 				"nombre limité de {C:blue}Mains",
-				"et de {C:red}Défausses{} par manche",
+				"et de {C:red}Défausses{} par manche.",
 			},
 			fh_8 = {
 				"Gagnez {C:attention}300 Jetons{} avant",
@@ -4002,13 +4011,13 @@ return {
 				"cartes dans le {C:attention}Magasin",
 			},
 			s_10 = {
-				"Les {C:attention}Bons d'achat{} sont réapprovisionnés",
+				"Les {C:attention}Coupons{} sont réapprovisionnés",
 				"lorsque vous battez la",
-				"{C:attention}Boss Blinde{}.",
+				"{C:attention}Blinde Boss{}.",
 			},
 			s_11 = {
 				"Pensez à regarder les deux",
-				"{C:booster}Paquets Booster{} dans",
+				"{C:booster}Boosters{} dans",
 				"chaque magasin. Ils",
 				"renferment de belles surprises !",
 			},
@@ -4024,7 +4033,7 @@ return {
 				"C'est l'un des {C:attention}#1#",
 				"{C:attention}Jokers{} que vous pouvez ajouter à",
 				"votre partie. Chaque {C:attention}Joker",
-				"a un effet différent",
+				"a un effet différent.",
 			},
 			s_4 = {
 				"Celui-ci ajoute un {C:red}Multi. +4{} à",
@@ -4033,11 +4042,11 @@ return {
 			s_5 = {
 				"Soyez sélectif, car vous ne pourrez",
 				"transporter que {C:attention}5 cartes Joker{}",
-				"à la fois",
+				"à la fois.",
 			},
 			s_6 = {
 				"À présent, achetez cette autre",
-				"carte dans le {C:attention}Magasin",
+				"carte dans le {C:attention}Magasin.",
 			},
 			s_7 = {
 				"Cette carte de {C:tarot}Tarot{} est un",
@@ -4052,8 +4061,8 @@ return {
 			},
 			s_9 = {
 				"Si vous économisez assez,",
-				"vous pouvez acheter un {C:attention}Bon d'achat{}.",
-				"Les {C:attention}Bons d'achat{} améliorent",
+				"vous pouvez acheter un {C:attention}Coupon{}.",
+				"Les {C:attention}Coupons{} améliorent",
 				"votre partie de manière passive !",
 			},
 			sb_1 = {
@@ -4079,7 +4088,7 @@ return {
 				"Quand vous obtiendrez d'autres cartes,",
 				"pensez à les réorganiser.",
 				"Les{C:attention} Jokers{} se déclenchent",
-				"de gauche à droite",
+				"de gauche à droite.",
 			},
 			sh_2 = {
 				"Ah, et n'oubliez pas",
@@ -4104,7 +4113,7 @@ return {
 			a_sold_tally = "#1#/#2# Vendu",
 			a_xmult = "Multi. x#1#",
 			a_xmult_minus = "-Multi. x#1#",
-			ante_x_voucher = "MISE INITIALE #1# BON D'ACHAT",
+			ante_x_voucher = "MISE INITIALE #1# COUPON",
 			challenges_completed = "#1#/#2# Défis terminés",
 			completed = "#1#/#2# complétés",
 			deck_preview_wheel_plural = "Les nombres peuvent être inférieurs en raison des cartes #1# tirées faces cachées",
@@ -4113,7 +4122,7 @@ return {
 			loyalty_active = "Actif !",
 			loyalty_inactive = "#1# restant",
 			ml_foil_desc = {
-				"Aluminium",
+				"Brillante",
 				"+#1# Chips",
 			},
 			ml_holo_desc = {
@@ -4210,7 +4219,7 @@ return {
 				"{C:inactive}Aucun",
 			},
 			ch_m_reroll_cost = {
-				"Coût de base de nouveau lancer égal à {C:money}#1# ${}",
+				"Coût de base du renouvellement égal à {C:money}#1# ${}",
 			},
 		},
 	},
