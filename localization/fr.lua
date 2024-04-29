@@ -67,9 +67,9 @@ return {
 			b_green = {
 				name = "Jeu vert",
 				text = {
-					[1] = "À la fin de la manche :",
-					[2] = "{C:money}#1# ${s:0.85} par {C:blue}main restante",
-					[3] = "{C:money}#2# ${s:0.85} par {C:red}défausse restante",
+					[1] = "À la fin de la manche :",
+					[2] = "{C:money}#1# ${s:0.85} par {C:blue}main restante",
+					[3] = "{C:money}#2# ${s:0.85} par {C:red}défausse restante",
 					[4] = "Vous ne percevez pas d'{C:attention}intérêts",
 				},
 			},
@@ -118,7 +118,7 @@ return {
 				name = "Jeu jaune",
 				text = {
 					[1] = "Commencez avec",
-					[2] = "{C:money}#1# $ supplémentaires",
+					[2] = "{C:money}#1# $ supplémentaires",
 				},
 			},
 			b_zodiac = {
@@ -263,7 +263,7 @@ return {
 				name = "Le bœuf",
 				text = {
 					[1] = "Jouer #1#",
-					[2] = "fixe l'argent à 0 $",
+					[2] = "fixe l'argent à 0 $",
 				},
 			},
 			bl_pillar = {
@@ -300,7 +300,7 @@ return {
 			bl_tooth = {
 				name = "La dent",
 				text = {
-					[1] = "Perdez 1 $ par",
+					[1] = "Perdez 1 $ par",
 					[2] = "carte jouée",
 				},
 			},
@@ -386,7 +386,7 @@ return {
 			m_gold = {
 				name = "Carte Or",
 				text = {
-					[1] = "{C:money}#1# ${} si cette",
+					[1] = "{C:money}#1# ${} si cette",
 					[2] = "carte est en main",
 					[3] = "à la fin de la manche",
 				},
@@ -397,7 +397,7 @@ return {
 					[1] = "{C:green}#1# chance(s) sur #3#{}",
 					[2] = "d'obtenir {C:mult}+#2#{} au Multi.",
 					[3] = "{C:green}#1# chance(s) sur #5#{}",
-					[4] = "de gagner {C:money}#4# $",
+					[4] = "de gagner {C:money}#4# $",
 				},
 			},
 			m_mult = {
@@ -431,7 +431,7 @@ return {
 		},
 		Joker = {
 			j_8_ball = {
-				name = "N° 8",
+				name = "N° 8",
 				text = {
 					[1] = "Créez une carte {C:planet}Planète{}",
 					[2] = "si la main jouée contient",
@@ -611,7 +611,7 @@ return {
 				text = {
 					[1] = "Les cartes {C:attention}Figure{} jouées ont",
 					[2] = "{C:green}#1# chance(s) sur #2#{}",
-					[3] = "d'octroyer {C:money}2 ${} en marquant des points",
+					[3] = "d'octroyer {C:money}2 ${} en marquant des points",
 				},
 			},
 			j_caino = {
@@ -725,10 +725,10 @@ return {
 			j_cloud_9 = {
 				name = "Neuvième ciel",
 				text = {
-					[1] = "Gagnez {C:money}#1# ${} pour chaque",
+					[1] = "Gagnez {C:money}#1# ${} pour chaque",
 					[2] = "{C:attention}9{} dans votre {C:attention}jeu complet",
 					[3] = "à la fin de la manche",
-					[4] = "{C:inactive}(Actuellement {C:money}#2# ${}{C:inactive})",
+					[4] = "{C:inactive}(Actuellement {C:money}#2# ${}{C:inactive})",
 				},
 			},
 			j_constellation = {
@@ -759,13 +759,13 @@ return {
 				name = "Carte de crédit",
 				text = {
 					[1] = "Vous pouvez accumuler",
-					[2] = "{C:red}-#1# ${} de dettes",
+					[2] = "{C:red}-#1# ${} de dettes",
 				},
 			},
 			j_delayed_grat = {
 				name = "Récompense différée",
 				text = {
-					[1] = "Gagnez {C:money}#1# ${} par {C:attention}défausse{} si",
+					[1] = "Gagnez {C:money}#1# ${} par {C:attention}défausse{} si",
 					[2] = "aucune défausse n'est utilisée",
 					[3] = "avant la fin de la manche",
 				},
@@ -846,7 +846,7 @@ return {
 			j_egg = {
 				name = "Œuf",
 				text = {
-					[1] = "Gagnez {C:money}#1# ${} de",
+					[1] = "Gagnez {C:money}#1# ${} de",
 					[2] = "la {C:attention}valeur de vente{} à",
 					[3] = "la fin de la manche",
 				},
@@ -855,7 +855,7 @@ return {
 				name = "Érosion",
 				text = {
 					[1] = "Multi. {C:red}+#1#{} pour chaque",
-					[2] = "carte en dessous de {C:attention}52{}",
+					[2] = "carte en dessous de {C:attention}#3#{}",
 					[3] = "dans votre jeu complet",
 					[4] = "{C:inactive}(Actuellement Multi. {C:red}+#2#{C:inactive})",
 				},
@@ -872,7 +872,7 @@ return {
 			j_faceless = {
 				name = "Joker sans visage",
 				text = {
-					[1] = "Gagnez {C:money}#1# ${} si {C:attention}#2#{}",
+					[1] = "Gagnez {C:money}#1# ${} si {C:attention}#2#{}",
 					[2] = "{C:attention}cartes Figure{} ou plus",
 					[3] = "sont défaussées",
 					[4] = "en même temps",
@@ -939,7 +939,7 @@ return {
 			j_gift = {
 				name = "Carte cadeau",
 				text = {
-					[1] = "Ajoutez {C:money}#1# ${} à la {C:attention}valeur de vente",
+					[1] = "Ajoutez {C:money}#1# ${} à la {C:attention}valeur de vente",
 					[2] = "de chaque carte {C:attention}Joker{} et",
 					[3] = "chaque carte {C:attention}Consommable{} à",
 					[4] = "la fin de la manche",
@@ -970,7 +970,7 @@ return {
 			j_golden = {
 				name = "Joker d'or",
 				text = {
-					[1] = "Gagnez {C:money}#1# ${} à",
+					[1] = "Gagnez {C:money}#1# ${} à",
 					[2] = "la fin de la manche",
 				},
 			},
@@ -1099,7 +1099,7 @@ return {
 				unlock = {
 					[1] = "Gagnez une partie sans",
 					[2] = "jamais avoir plus",
-					[3] = "de {E:1,C:attention}4 Jokers{}",
+					[3] = "de {E:1,C:attention}4 Jokers{}",
 				},
 			},
 			j_joker = {
@@ -1119,7 +1119,7 @@ return {
 			j_juggler = {
 				name = "Jongleur",
 				text = {
-					[1] = "Vous pouvez tenir {C:attention}+#1#{} carte(s)",
+					[1] = "{C:attention}+#1#{} à la taille de la main",
 				},
 			},
 			j_loyalty_card = {
@@ -1175,7 +1175,7 @@ return {
 			j_mail = {
 				name = "Remise par courrier",
 				text = {
-					[1] = "Gagnez {C:money}#1# ${} pour chaque",
+					[1] = "Gagnez {C:money}#1# ${} pour chaque",
 					[2] = "carte {C:attention}#2#{} défaussée, la valeur",
 					[3] = "change à chaque manche",
 				},
@@ -1191,7 +1191,7 @@ return {
 			j_matador = {
 				name = "Matador",
 				text = {
-					[1] = "Gagnez {C:money}#1# ${} si la main jouée",
+					[1] = "Gagnez {C:money}#1# ${} si la main jouée",
 					[2] = "déclenche la capacité",
 					[3] = "{C:attention}Boss Blinde{}",
 				},
@@ -1239,7 +1239,7 @@ return {
 				text = {
 					[1] = "Empêche la mort",
 					[2] = "si les Jetons marqués",
-					[3] = "constituent au minimum {C:attention}25 %",
+					[3] = "constituent au minimum {C:attention}25 %",
 					[4] = "des Jetons nécessaires.",
 					[5] = "{S:1.1,C:red,E:2}S'autodétruit{}",
 				},
@@ -1293,7 +1293,7 @@ return {
 				text = {
 					[1] = "Double toutes les",
 					[2] = "{C:green,E:1,S:1.1}probabilités",
-					[3] = "{C:inactive}(ex. : {C:green}1 sur 3{C:inactive} -> {C:green}2 sur 3{C:inactive})",
+					[3] = "{C:inactive}(ex. : {C:green}1 sur 3{C:inactive} -> {C:green}2 sur 3{C:inactive})",
 				},
 				unlock = {
 					[1] = "Dans une main,",
@@ -1380,7 +1380,7 @@ return {
 					[1] = "Chaque carte {C:attention}Figure{}",
 					[2] = "en main a",
 					[3] = "{C:green}#2# chance(s) sur #3#{}",
-					[4] = "pour octroyer {C:money}#1# ${}",
+					[4] = "pour octroyer {C:money}#1# ${}",
 				},
 			},
 			j_ride_the_bus = {
@@ -1416,8 +1416,8 @@ return {
 			j_rocket = {
 				name = "Fusée",
 				text = {
-					[1] = "Gagnez {C:money}#1# ${} à la fin de la",
-					[2] = "de la manche. Octroie {C:money}#2# ${} lorsque",
+					[1] = "Gagnez {C:money}#1# ${} à la fin de la",
+					[2] = "de la manche. Octroie {C:money}#2# ${} lorsque",
 					[3] = "la {C:attention}Boss Blinde{} est vaincue",
 				},
 			},
@@ -1426,7 +1426,7 @@ return {
 				text = {
 					[1] = "Les cartes jouées avec",
 					[2] = "Une couleur {C:diamonds}Carreau{} octroient",
-					[3] = "{C:money}#1# ${} en marquant des points",
+					[3] = "{C:money}#1# ${} en marquant des points",
 				},
 				unlock = {
 					[1] = "Vous devez avoir au moins {E:1,C:attention}#1#",
@@ -1446,13 +1446,13 @@ return {
 			j_satellite = {
 				name = "Satellite",
 				text = {
-					[1] = "Gagnez {C:money}#1# ${} à la fin de la manche",
+					[1] = "Gagnez {C:money}#1# ${} à la fin de la manche",
 					[2] = "pour chaque chaque carte {C:planet}Planète unique",
 					[3] = "utilisée dans cette partie",
-					[4] = "{C:inactive}(Actuellement {C:money}#2# ${C:inactive})",
+					[4] = "{C:inactive}(Actuellement {C:money}#2# ${C:inactive})",
 				},
 				unlock = {
-					[1] = "Vous devez posséder {E:1,C:money}#1# $",
+					[1] = "Vous devez posséder {E:1,C:money}#1# $",
 					[2] = "ou plus",
 				},
 			},
@@ -1479,7 +1479,7 @@ return {
 					[1] = "Si la {C:attention}main de poker{} est de type",
 					[2] = "{C:attention}#1#{}, créez",
 					[3] = "une carte {C:spectral}Spectrale{} aléatoire",
-					[4] = "{C:inactive}(Must have room)",
+					[4] = "{C:inactive}(Selon la place disponible)",
 				},
 			},
 			j_seeing_double = {
@@ -1522,7 +1522,7 @@ return {
 				text = {
 					[1] = "Permet de créer des {C:attention}Quintes{}",
 					[2] = "avec des {C:attention}écarts de valeur de 1",
-					[3] = "{C:inactive}(ex. : {C:attention}2 3 5 7 8{C:inactive})",
+					[3] = "{C:inactive}(ex. : {C:attention}2 3 5 7 8{C:inactive})",
 				},
 			},
 			j_sixth_sense = {
@@ -1686,10 +1686,10 @@ return {
 				name = "Ticket d'or",
 				text = {
 					[1] = "Les cartes {C:attention}Or{} jouées",
-					[2] = "octroient {C:money}#1# ${} en marquant des points",
+					[2] = "octroient {C:money}#1# ${} en marquant des points",
 				},
 				unlock = {
-					[1] = "Jouez une main à 5 cartes",
+					[1] = "Jouez une main à 5 cartes",
 					[2] = "qui ne contient que des",
 					[3] = "cartes {C:attention,E:1}Or{}",
 				},
@@ -1697,15 +1697,15 @@ return {
 			j_to_the_moon = {
 				name = "Vers les étoiles",
 				text = {
-					[1] = "Gagnez {C:money}#1# ${} d'{C:attention}intérêt{}",
-					[2] = "supplémentaire par tranche de {C:money}5 ${}",
+					[1] = "Gagnez {C:money}#1# ${} d'{C:attention}intérêt{}",
+					[2] = "supplémentaire par tranche de {C:money}5 ${}",
 					[3] = "possédée à la fin de la manche",
 				},
 			},
 			j_todo_list = {
 				name = "Liste des tâches",
 				text = {
-					[1] = "Gagnez {C:money}#1# ${} si la {C:attention}main de poker{}",
+					[1] = "Gagnez {C:money}#1# ${} si la {C:attention}main de poker{}",
 					[2] = "est de type {C:attention}#2#{},",
 					[3] = "cette main change",
 					[4] = "à chaque gain",
@@ -1716,7 +1716,7 @@ return {
 				text = {
 					[1] = "Si la {C:attention}première défausse{} de la manche",
 					[2] = "ne contient qu'{C:attention}une{} carte, détruisez-la",
-					[3] = "et gagnez {C:money}#1# $",
+					[3] = "et gagnez {C:money}#1# $",
 				},
 			},
 			j_tribe = {
@@ -1790,7 +1790,7 @@ return {
 				text = {
 					[1] = "Crée une carte de {C:purple}Tarot{}",
 					[2] = "si la main est jouée",
-					[3] = "avec {C:money}#1# ${} ou moins",
+					[3] = "avec {C:money}#1# ${} ou moins",
 				},
 			},
 			j_vampire = {
@@ -1844,7 +1844,7 @@ return {
 				text = {
 					[1] = "Multi. {X:mult,C:white}x#1#{} seulement après",
 					[2] = "avoir utilisé {C:attention}#2#{} défausses",
-					[3] = "{C:inactive}(Défausses restantes : {C:attention}#3#{C:inactive})",
+					[3] = "{C:inactive}(Défausses restantes : {C:attention}#3#{C:inactive})",
 				},
 				unlock = {
 					[1] = "{E:1,s:1.3}?????",
@@ -1863,7 +1863,7 @@ return {
 			black_sticker = {
 				name = "Autocollant noir",
 				text = {
-					[1] = "Utilisez ce Joker",
+					[1] = "Joker utilisé",
 					[2] = "pour gagner en difficulté",
 					[3] = "{C:attention}Mise{C:attention}noire{}",
 				},
@@ -1879,7 +1879,7 @@ return {
 			blue_sticker = {
 				name = "Autocollant bleu",
 				text = {
-					[1] = "Utilisez ce Joker",
+					[1] = "Joker utilisé",
 					[2] = "pour gagner en difficulté",
 					[3] = "{C:attention}Mise{C:attention}bleue{}",
 				},
@@ -1968,7 +1968,7 @@ return {
 			gold_seal = {
 				name = "Sceau d'or",
 				text = {
-					[1] = "Gagnez {C:money}3 ${} lorsque cette",
+					[1] = "Gagnez {C:money}3 ${} lorsque cette",
 					[2] = "carte est jouée",
 					[3] = "et marque",
 				},
@@ -1976,7 +1976,7 @@ return {
 			gold_sticker = {
 				name = "Autocollant d'or",
 				text = {
-					[1] = "Utilisez ce Joker",
+					[1] = "Joker utilisé",
 					[2] = "pour gagner en difficulté",
 					[3] = "{C:attention}Mise{C:attention}d'or{}",
 				},
@@ -1984,7 +1984,7 @@ return {
 			green_sticker = {
 				name = "Autocollant vert",
 				text = {
-					[1] = "Utilisez ce Joker",
+					[1] = "Joker utilisé",
 					[2] = "pour gagner en difficulté",
 					[3] = "{C:attention}Mise{C:attention}verte{}",
 				},
@@ -1993,7 +1993,7 @@ return {
 				name = "Bloqué",
 				text = {
 					[1] = "Trouvez ce Joker",
-					[2] = "par la carte {C:spectral}Âme{}",
+					[2] = "par la carte {C:spectral}Ame{}",
 				},
 			},
 			locked = {
@@ -2003,7 +2003,7 @@ return {
 			orange_sticker = {
 				name = "Autocollant orange",
 				text = {
-					[1] = "Utilisez ce Joker",
+					[1] = "Joker utilisé",
 					[2] = "pour gagner en difficulté",
 					[3] = "{C:attention}Mise{C:attention}orange{}",
 				},
@@ -2149,7 +2149,7 @@ return {
 			purple_sticker = {
 				name = "Autocollant violet",
 				text = {
-					[1] = "Utilisez ce Joker",
+					[1] = "Joker utilisé",
 					[2] = "pour gagner en difficulté",
 					[3] = "{C:attention}Mise{C:attention}violette{}",
 				},
@@ -2164,22 +2164,19 @@ return {
 			red_sticker = {
 				name = "Autocollant rouge",
 				text = {
-					[1] = "Utilisez ce Joker",
+					[1] = "Joker utilisé",
 					[2] = "pour gagner en difficulté",
 					[3] = "{C:attention}Mise{C:attention}rouge{}",
 				},
 			},
 			remove_negative = {
-				name = "n",
-				text = {
-					[1] = "{C:inactive,s:0.9}(Removes {C:dark_edition,s:0.9}Negative{C:inactive,s:0.9} from copy)",
-				},
+				text = {},
 			},
 			undiscovered_booster = {
 				name = "Non découvert",
 				text = {
 					[1] = "Ouvrez ce paquet",
-					[2] = "dans une partie sans paramètres spécifiques",
+					[2] = "dans une partie sans seed",
 					[3] = "pour connaître son effet",
 				},
 			},
@@ -2187,7 +2184,7 @@ return {
 				name = "Non découvert",
 				text = {
 					[1] = "Trouvez cette édition",
-					[2] = "dans une partie sans paramètres spécifiques",
+					[2] = "dans une partie sans seed pour",
 					[3] = "pour connaître son effet",
 				},
 			},
@@ -2196,7 +2193,7 @@ return {
 				text = {
 					[1] = "Achetez ou utilisez",
 					[2] = "cette carte dans une partie",
-					[3] = "sans paramètres spécifiques pour",
+					[3] = "sans seed pour",
 					[4] = "connaître son effet",
 				},
 			},
@@ -2205,7 +2202,7 @@ return {
 				text = {
 					[1] = "Achetez ou utilisez",
 					[2] = "cette carte dans une partie",
-					[3] = "sans paramètres spécifiques pour",
+					[3] = "sans seed pour",
 					[4] = "connaître son effet",
 				},
 			},
@@ -2214,7 +2211,7 @@ return {
 				text = {
 					[1] = "Achetez ou utilisez",
 					[2] = "cette carte dans une partie",
-					[3] = "sans paramètres spécifiques pour",
+					[3] = "sans seed pour",
 					[4] = "connaître son effet",
 				},
 			},
@@ -2222,7 +2219,7 @@ return {
 				name = "Non découvert",
 				text = {
 					[1] = "Utilisez cette étiquette dans",
-					[2] = "une partie sans paramètres spécifiques pour",
+					[2] = "une partie sans seed pour",
 					[3] = "connaître son effet",
 				},
 			},
@@ -2231,7 +2228,7 @@ return {
 				text = {
 					[1] = "Achetez ou utilisez",
 					[2] = "cette carte dans une partie",
-					[3] = "sans paramètres spécifiques pour",
+					[3] = "sans seed pour",
 					[4] = "connaître son effet",
 				},
 			},
@@ -2240,16 +2237,16 @@ return {
 				text = {
 					[1] = "Échangez ce",
 					[2] = "bon d'achat dans une partie",
-					[3] = "sans paramètres spécifiques pour",
+					[3] = "sans seed pour",
 					[4] = "connaître son effet",
 				},
 			},
 			white_sticker = {
 				name = "Autocollant blanc",
 				text = {
-					[1] = "Utilisez ce Joker",
+					[1] = "Joker utilisé",
 					[2] = "pour gagner en difficulté",
-					[3] = "{C:attention}Mise{C:attention}blanche{}",
+					[3] = "{C:attention}Mise {C:attention}blanche{}",
 				},
 			},
 			wip_locked = {
@@ -2372,7 +2369,7 @@ return {
 		},
 		Spectral = {
 			c_ankh = {
-				name = "Ânkh",
+				name = "Ankh",
 				text = {
 					[1] = "Créez une copie d'un",
 					[2] = "{C:attention}Joker{} aléatoire, détruisez",
@@ -2450,7 +2447,7 @@ return {
 				text = {
 					[1] = "Détruit {C:attention}#1#{} cartes",
 					[2] = "aléatoires en main,",
-					[3] = "gagnez {C:money}#2# $",
+					[3] = "gagnez {C:money}#2# $",
 				},
 			},
 			c_incantation = {
@@ -2516,7 +2513,7 @@ return {
 				text = {
 					[1] = "Crée une carte",
 					[2] = "Joker {C:red}Rare{C:attention}{},",
-					[3] = "fixe l'argent à {C:money}0 $",
+					[3] = "fixe l'argent à {C:money}0 $",
 				},
 			},
 		},
@@ -2525,7 +2522,7 @@ return {
 				name = "Mise noire",
 				text = {
 					[1] = "Les magasins peuvent posséder des Jokers {C:attention}Éternels{}",
-					[2] = "{C:inactive,s:0.8}{Can't be sold or destroyed}",
+					[2] = "{C:inactive,s:0.8}(Ne peut pas être vendu ou détruit)",
 					[3] = "{s:0.8}Applique toutes les mises précédentes",
 				},
 			},
@@ -2555,7 +2552,7 @@ return {
 				name = "Mise orange",
 				text = {
 					[1] = "Les {C:attention}Paquets Booster{} coûtent",
-					[2] = "{C:money}1 ${} de plus par mise initiale",
+					[2] = "{C:money}1 ${} de plus par mise initiale",
 					[3] = "{s:0.8}Applique toutes les mises précédentes",
 				},
 			},
@@ -2613,10 +2610,10 @@ return {
 				},
 			},
 			tag_d_six = {
-				name = "Étiquette D6",
+				name = "Étiquette D6",
 				text = {
 					[1] = "Les nouveaux lancers du prochain magasin",
-					[2] = "commencent à {C:money}0 $",
+					[2] = "commencent à {C:money}0 $",
 				},
 			},
 			tag_double = {
@@ -2624,14 +2621,14 @@ return {
 				text = {
 					[1] = "Octroie une copie de la",
 					[2] = "prochaine {C:attention}Étiquette{} sélectionnée",
-					[3] = "en excluant l'{s:0.8,C:attention}Étiquette double{s:0.8}",
+					[3] = "{s:0.8}en excluant {s:0.8,C:attention}l'Étiquette double",
 				},
 			},
 			tag_economy = {
 				name = "Étiquette économique",
 				text = {
 					[1] = "Double votre argent",
-					[2] = "{C:inactive}({C:money}#1# ${C:inactive} au maximum)",
+					[2] = "{C:inactive}({C:money}#1# ${C:inactive} au maximum)",
 				},
 			},
 			tag_ethereal = {
@@ -2651,17 +2648,17 @@ return {
 			tag_garbage = {
 				name = "Étiquette moisie",
 				text = {
-					[1] = "Octroie {C:money}#1# ${} par",
+					[1] = "Octroie {C:money}#1# ${} par",
 					[2] = "{C:red}défausse{} dans cette partie",
-					[3] = "{C:inactive}(Octroiera {C:money}#2# ${C:inactive})",
+					[3] = "{C:inactive}(Octroiera {C:money}#2# ${C:inactive})",
 				},
 			},
 			tag_handy = {
 				name = "Étiquette pratique",
 				text = {
-					[1] = "Octroie {C:money}#1# ${} par",
+					[1] = "Octroie {C:money}#1# ${} par",
 					[2] = "{C:blue}main{} jouée dans cette partie",
-					[3] = "{C:inactive}(Octroiera {C:money}#2# ${C:inactive})",
+					[3] = "{C:inactive}(Octroiera {C:money}#2# ${C:inactive})",
 				},
 			},
 			tag_holo = {
@@ -2676,7 +2673,7 @@ return {
 				text = {
 					[1] = "Après avoir battu",
 					[2] = "la Boss Blinde,",
-					[3] = "gagnez {C:money}#1# $",
+					[3] = "gagnez {C:money}#1# $",
 				},
 			},
 			tag_juggle = {
@@ -2724,9 +2721,9 @@ return {
 			tag_skip = {
 				name = "Étiquette de rapidité",
 				text = {
-					[1] = "Gagnez {C:money}#1# ${} par blinde",
+					[1] = "Gagnez {C:money}#1# ${} par blinde",
 					[2] = "passée lors de cette partie",
-					[3] = "{C:inactive}(Peut octroyer {C:money}#2# ${C:inactive})",
+					[3] = "{C:inactive}(Peut octroyer {C:money}#2# ${C:inactive})",
 				},
 			},
 			tag_standard = {
@@ -2829,7 +2826,7 @@ return {
 				name = "L'ermite",
 				text = {
 					[1] = "Double l'argent",
-					[2] = "{C:inactive}({C:money}#1# ${C:inactive} au maximum)",
+					[2] = "{C:inactive}({C:money}#1# ${C:inactive} au maximum)",
 				},
 			},
 			c_high_priestess = {
@@ -2909,8 +2906,8 @@ return {
 				text = {
 					[1] = "Octroie la valeur de vente",
 					[2] = "totale de tous les",
-					[3] = "Jokers actuels {C:inactive}({C:money}#1# ${C:inactive} au maximum)",
-					[4] = "{C:inactive}(Actuellement {C:money}#2# ${C:inactive})",
+					[3] = "Jokers actuels {C:inactive}({C:money}#1# ${C:inactive} au maximum)",
+					[4] = "{C:inactive}(Actuellement {C:money}#2# ${C:inactive})",
 				},
 			},
 			c_tower = {
@@ -2954,14 +2951,14 @@ return {
 			v_blank = {
 				name = "À blanc",
 				text = {
-					[1] = "{C:inactive}Ne fait rien ?",
+					[1] = "{C:inactive}Ne fait rien ?",
 				},
 			},
 			v_clearance_sale = {
 				name = "Déstockage",
 				text = {
 					[1] = "Toutes les cartes et tous les paquets du",
-					[2] = "magasin sont vendus avec un rabais de {C:attention}#1# %{}",
+					[2] = "magasin sont vendus avec un rabais de {C:attention}#1# %{}",
 				},
 			},
 			v_crystal_ball = {
@@ -2975,7 +2972,7 @@ return {
 				text = {
 					[1] = "Relancez la Boss Blinde",
 					[2] = "{C:attention}1{} fois par mise initiale,",
-					[3] = "{C:money}#1# ${} par lancer",
+					[3] = "{C:money}#1# ${} par lancer",
 				},
 			},
 			v_glow_up = {
@@ -3004,8 +3001,8 @@ return {
 				name = "Hiéroglyphe",
 				text = {
 					[1] = "{C:attention}-#1#{} à la mise initiale",
-					[2] = "{C:attention}-#1#{} à la mise initiale",
-					[3] = "{C:blue}-#1#{} main",
+					[2] = "{C:blue}-#1#{} main",
+					[3] = "par manche",
 				},
 			},
 			v_hone = {
@@ -3034,7 +3031,7 @@ return {
 				name = "Liquidation",
 				text = {
 					[1] = "Toutes les cartes et tous les paquets du",
-					[2] = "magasin sont vendus avec un rabais de {C:attention}#1# %{}",
+					[2] = "magasin sont vendus avec un rabais de {C:attention}#1# %{}",
 				},
 				unlock = {
 					[1] = "Utilisez au moins",
@@ -3055,7 +3052,7 @@ return {
 				text = {
 					[1] = "Augmentez le plafond des",
 					[2] = "intérêts perçus",
-					[3] = "par manche de {C:money}#1# ${}",
+					[3] = "par manche de {C:money}#1# ${}",
 				},
 				unlock = {
 					[1] = "Maximisez les intérêts",
@@ -3121,8 +3118,8 @@ return {
 				},
 				unlock = {
 					[1] = "Dépensez un total de",
-					[2] = "{C:money}#1# ${} dans le magasin",
-					[3] = "{C:inactive}(#2# $)",
+					[2] = "{C:money}#1# ${} dans le magasin",
+					[3] = "{C:inactive}(#2# $)",
 				},
 			},
 			v_paint_brush = {
@@ -3145,8 +3142,8 @@ return {
 				name = "Pétroglyphe",
 				text = {
 					[1] = "{C:attention}-#1#{} à la mise initiale",
-					[2] = "{C:attention}-#1#{} à la mise initiale",
-					[3] = "{C:red}-#1#{} défausse",
+					[2] = "{C:red}-#1#{} défausse",
+					[3] = "par manche",
 				},
 				unlock = {
 					[1] = "Atteignez la mise initiale",
@@ -3192,7 +3189,7 @@ return {
 				name = "Comme s'il en pleuvait",
 				text = {
 					[1] = "Les nouveaux lancers coûtent",
-					[2] = "{C:money}#1# ${} moins cher",
+					[2] = "{C:money}#1# ${} moins cher",
 				},
 				unlock = {
 					[1] = "Effectuez un total de",
@@ -3204,7 +3201,7 @@ return {
 				name = "Lancers en pagaille",
 				text = {
 					[1] = "Les nouveaux lancers coûtent",
-					[2] = "{C:money}#1# ${} moins cher",
+					[2] = "{C:money}#1# ${} moins cher",
 				},
 			},
 			v_retcon = {
@@ -3212,7 +3209,7 @@ return {
 				text = {
 					[1] = "Relancez la Boss Blinde",
 					[2] = "un nombre {C:attention}illimité{} de fois,",
-					[3] = "{C:money}#1# ${} par nouveau lancer",
+					[3] = "{C:money}#1# ${} par nouveau lancer",
 				},
 				unlock = {
 					[1] = "Découvrez",
@@ -3224,7 +3221,7 @@ return {
 				text = {
 					[1] = "Augmentez le plafond des",
 					[2] = "intérêts perçus",
-					[3] = "par manche de {C:money}#1# ${}",
+					[3] = "par manche de {C:money}#1# ${}",
 				},
 			},
 			v_tarot_merchant = {
@@ -3281,17 +3278,17 @@ return {
 			card_player = "Jouez au moins 2 500 cartes",
 			cartomancy = "Découvrez toutes les cartes de Tarot",
 			clairvoyance = "Découvrez toutes les cartes Spectrales",
-			completionist = "Découvrez 100 % de votre collection",
+			completionist = "Découvrez 100 % de votre collection",
 			completionist_plus = "Gagnez avec tous les jeux en difficulté Mise d'or",
 			completionist_plus_plus = "Gagnez un Autocollant d'or sur chaque Joker",
 			extreme_couponer = "Découvrez tous les bons d'achat",
-			flushed = "Jouez une couleur avec 5 cartes Libres",
+			flushed = "Jouez une couleur avec 5 cartes Libres",
 			heads_up = "Gagnez une partie",
 			high_stakes = "Gagnez une partie en difficulté Mise d'or au minimum",
 			legendary = "Découvrez un Joker Légendaire",
 			low_stakes = "Gagnez une partie en difficulté Mise rouge au minimum",
 			mid_stakes = "Gagnez une partie en difficulté Mise noire au minimum",
-			nest_egg = "Vous devez accumuler 400 $ ou plus en une seule partie",
+			nest_egg = "Vous devez accumuler 400 $ ou plus en une seule partie",
 			retrograde = "Faites passer une main de poker au niveau 10",
 			roi = "Achetez 5 bons d'achat avant la mise initiale 4",
 			royale = "Jouez une Quinte flush royale",
@@ -3303,9 +3300,9 @@ return {
 			you_get_what_you_get = "Gagnez une partie sans effectuer aucun nouveau lancer dans le magasin",
 		},
 		achievement_names = {
-			_100000k = "100 000 000",
-			_1000k = "1 000 000",
-			_10k = "10 000",
+			_100000k = "100 000 000",
+			_1000k = "1 000 000",
+			_10k = "10 000",
 			ante_up = "Mise initiale augmentée !",
 			ante_upper = "Mise initiale encore augmentée !",
 			astronomy = "Astronomie",
@@ -3378,7 +3375,7 @@ return {
 			b_collection_cap = "COLLECTION",
 			b_continue = "Continuer",
 			b_copy = "Copie",
-			b_copy_seed = "Copier les Paramètres spécifiques",
+			b_copy_seed = "Copier la seed",
 			b_create_profile = "Créer un profil",
 			b_credits = "Crédits",
 			b_current_profile = "Profil actuel",
@@ -3419,7 +3416,7 @@ return {
 			b_run_info_1 = "Partie",
 			b_run_info_2 = "Infos",
 			b_seals = "Sceaux",
-			b_seed = "Paramètres spécifiques",
+			b_seed = "Seed",
 			b_select = "SÉLECTIONNER",
 			b_sell = "VENDRE",
 			b_set_CRT = "CRT",
@@ -3467,8 +3464,8 @@ return {
 			k_achievement = "Succès",
 			k_achievements_disabled = "Succès désactivés",
 			k_active = "actif",
-			k_active_ex = "Actif !",
-			k_again_ex = "Encore !",
+			k_active_ex = "Actif !",
+			k_again_ex = "Encore !",
 			k_all_hands = "Toutes les mains",
 			k_also_applied = "A également appliqué",
 			k_ante = "Mise initiale",
@@ -3491,30 +3488,30 @@ return {
 			k_collection = "Collection",
 			k_common = "Commun",
 			k_compatible = "compatible",
-			k_copied_ex = "Copié !",
+			k_copied_ex = "Copié !",
 			k_custom_rules = "Règles personnalisées",
 			k_daily_run = "Partie quotidienne",
 			k_debuffed = "Affaibli",
 			k_deck = "Jeu",
 			k_deck_stake_wins = "Victoires de mise de jeu",
 			k_defeated_by = "Battu par",
-			k_demo_version_ex = "Version de démonstration !",
-			k_drank_ex = "Belle descente !",
-			k_duplicated_ex = "Dupliqué !",
+			k_demo_version_ex = "Version de démonstration !",
+			k_drank_ex = "Belle descente !",
+			k_duplicated_ex = "Dupliqué !",
 			k_dwarf_planet = "Planète naine",
-			k_eaten_ex = "Mangé !",
+			k_eaten_ex = "Mangé !",
 			k_edition = "Édition",
 			k_effective = "Efficace",
 			k_empty_caps = "VIDE",
 			k_enter_name = "Saisissez votre nom",
-			k_enter_seed = "Entrer les paramètres spécifiques",
+			k_enter_seed = "Entrer la seed",
 			k_enter_text = "Saisir le texte",
-			k_eroded_ex = "Érodé !",
-			k_extinct_ex = "Détruit !",
+			k_eroded_ex = "Érodé !",
+			k_extinct_ex = "Détruit !",
 			k_face_cards = "Cartes Figure",
 			k_game_modifiers = "Modificateurs de jeu",
 			k_gold = "Or",
-			k_high_score_ex = "Meilleur score !",
+			k_high_score_ex = "Meilleur score !",
 			k_hud_discards = "Défausses",
 			k_hud_hands = "Mains",
 			k_incompatible = "incompatible",
@@ -3523,45 +3520,46 @@ return {
 			k_jokers_cap = "JOKERS",
 			k_legendary = "Légendaire",
 			k_level_prefix = "niv.",
-			k_level_up_ex = "Niveau supérieur !",
+			k_level_up_ex = "Niveau supérieur !",
 			k_locked = "Bloqué",
 			k_lower_score = "score",
 			k_lvl = "niv.",
-			k_melted_ex = "Fondu !",
+			k_melted_ex = "Fondu !",
 			k_money = "Argent",
 			k_mult = "Multi.",
-			k_no_other_jokers = "Pas d'autres Jokers !",
+			k_no_other_jokers = "Pas d'autres Jokers !",
 			k_no_reward = "Pas de récompense",
-			k_no_room_ex = "Pas de place !",
-			k_no_space_ex = "Pas de place !",
+			k_no_room_ex = "Pas de place !",
+			k_no_space_ex = "Pas de place !",
 			k_none = "Aucun",
-			k_nope_ex = "Non !",
+			k_nope_ex = "Non !",
 			k_not_discovered = "Non découvert",
 			k_numbered_cards = "Cartes numérotées",
 			k_or = "ou",
 			k_other = "Autre",
 			k_page = "Page",
 			k_planet = "Planète",
-			k_planet_q = "Planète ?",
+			k_planet_q = "Planète ?",
 			k_playing_as = "Joue en tant que",
-			k_plus_joker = " +1 Joker",
+			k_plus_joker = "+1 Joker",
 			k_plus_planet = "+1 Planète",
 			k_plus_spectral = "+1 Spectral",
 			k_plus_stone = "+1 Pierres",
 			k_plus_tarot = "+1 Tarot",
+			k_poker_hand = "main de poker",
 			k_profile = "Profil",
 			k_progress = "Progression",
 			k_rank = "Valeur",
 			k_rare = "Rare",
-			k_redeemed_ex = "Échangé !",
+			k_redeemed_ex = "Échangé !",
 			k_reroll = "Nouveau lancer",
 			k_reset = "Réinitialiser",
 			k_reward = "Récompense",
 			k_round = "Manche",
-			k_safe_ex = "Sûr !",
-			k_saved_ex = "Sauvegardé !",
-			k_seed = "Paramètres spécifiques",
-			k_seeded_run = "Partie avec paramètres spécifiques",
+			k_safe_ex = "Sûr !",
+			k_saved_ex = "Sauvegardé !",
+			k_seed = "La seed",
+			k_seeded_run = "Partie avec seed",
 			k_skipped_cap = "PASSÉ",
 			k_spectral = "Spectral",
 			k_spectral_pack = "Paquet Spectral",
@@ -3569,16 +3567,16 @@ return {
 			k_stake_level = "Niveau de mise",
 			k_standard_pack = "Paquet Standard",
 			k_suit = "Couleur",
-			k_swapped_ex = "Échangé !",
+			k_swapped_ex = "Échangé !",
 			k_tarot = "Tarot",
 			k_trophies_disabled = "Trophées désactivés",
 			k_trophy = "Trophée",
 			k_uncommon = "Peu commun",
 			k_undisovered = "Non découvert",
 			k_unknown = "?????",
-			k_unlocked_ex = "Débloqué !",
-			k_upgrade_ex = "Améliorer !",
-			k_val_up = "Valeur supérieure !",
+			k_unlocked_ex = "Débloqué !",
+			k_upgrade_ex = "Améliorer !",
+			k_val_up = "Valeur supérieure !",
 			k_view = "Afficher",
 			k_voucher = "Bon d'achat",
 			k_vouchers_cap = "BONS D'ACHAT",
@@ -3622,7 +3620,7 @@ return {
 			},
 			ml_paste_seed = {
 				[1] = "Coller",
-				[2] = "Paramètres spécifiques",
+				[2] = "La seed",
 			},
 			ml_play_discard_pos_opt = {
 				[1] = "Défausser/Jouer",
@@ -3637,12 +3635,12 @@ return {
 				[2] = "Activé",
 			},
 			ml_unlock_all_explanation = {
-				[1] = "ATTENTION ! Si vous débloquez la collection complète,",
-				[2] = "tous les succès seront désactivés sur ce profil !",
+				[1] = "ATTENTION ! Si vous débloquez la collection complète,",
+				[2] = "tous les succès seront désactivés sur ce profil !",
 			},
 			ml_unlock_all_trophies = {
-				[1] = "ATTENTION ! Si vous débloquez la collection complète,",
-				[2] = "désactivera les trophées sur ce profil !",
+				[1] = "ATTENTION ! Si vous débloquez la collection complète,",
+				[2] = "désactivera les trophées sur ce profil !",
 			},
 			ml_vsync_opt = {
 				[1] = "Synchro V. Activée",
@@ -3654,11 +3652,12 @@ return {
 				[3] = "Sans bordures",
 			},
 			ph_1_level = "+1 Niveau",
-			ph_alert_debuff_confirm = "Appuyez à nouveau sur « Jouer » pour confirmer",
+			ph_4_7_of_clubs = "quatre 7 de trèfles",
+			ph_alert_debuff_confirm = "Appuyez à nouveau sur « Jouer » pour confirmer",
 			ph_all_poker_hand = "Toutes les mains de poker",
 			ph_blind_reward = "Récompense : ",
 			ph_blind_score_at_least = "Faire un score d'au moins",
-			ph_boss_disabled = "Bosse désactivé !",
+			ph_boss_disabled = "Bosse désactivé !",
 			ph_choose_blind_1 = "Choisissez votre",
 			ph_choose_blind_2 = "prochaine Blinde",
 			ph_click_confirm = "Cliquez à nouveau pour confirmer",
@@ -3670,9 +3669,9 @@ return {
 			ph_demo_thanks_1 = "Merci d'avoir joué à la",
 			ph_demo_thanks_2 = "DÉMO DE BALATRO",
 			ph_game_over = "PARTIE TERMINÉE",
-			ph_improve_run = "Améliorez votre partie !",
-			ph_most_played = "{most played hand}",
-			ph_mr_bones = "Sauvé par M. Bones",
+			ph_improve_run = "Améliorez votre partie !",
+			ph_most_played = "(main la plus jouée)",
+			ph_mr_bones = "Sauvé par M. Bones",
 			ph_no_boss_active = "aucun boss actif",
 			ph_no_vouchers = "Pas de bons utilisés pendant cette partie",
 			ph_score_at_least = "Faire un score d'au moins",
@@ -3694,8 +3693,8 @@ return {
 			ph_up_ante_2 = "Augmenter toutes les Blindes",
 			ph_up_ante_3 = "Actualiser les Blindes",
 			ph_vouchers_redeemed = "Bons utilisés pendant cette partie",
-			ph_you_win = "VOUS AVEZ GAGNÉ !",
-			ph_you_win_demo = "VOUS AVEZ TERMINÉ LA DÉMO !",
+			ph_you_win = "VOUS AVEZ GAGNÉ !",
+			ph_you_win_demo = "VOUS AVEZ TERMINÉ LA DÉMO !",
 		},
 		high_scores = {
 			boss_streak = "Le plus de Boss d'affilée",
@@ -3731,20 +3730,20 @@ return {
 		},
 		poker_hand_descriptions = {
 			["Five of a Kind"] = {
-				[1] = "5 cartes de même valeur",
+				[1] = "5 cartes de même valeur",
 			},
 			["Flush"] = {
-				[1] = "5 cartes de même couleur",
+				[1] = "5 cartes de même couleur",
 			},
 			["Flush Five"] = {
-				[1] = "5 cartes de même valeur et de même couleur",
+				[1] = "5 cartes de même valeur et de même couleur",
 			},
 			["Flush House"] = {
 				[1] = "Un brelan et une paire",
 				[2] = "avec des cartes de même couleur",
 			},
 			["Four of a Kind"] = {
-				[1] = "4 cartes de même valeur. Elles peuvent",
+				[1] = "4 cartes de même valeur. Elles peuvent",
 				[2] = "être jouées avec une autre carte non marquée",
 			},
 			["Full House"] = {
@@ -3755,26 +3754,26 @@ return {
 				[2] = "seule la carte à la valeur la plus élevée est prise en compte",
 			},
 			["Pair"] = {
-				[1] = "2 cartes de même valeur. Elles peuvent",
+				[1] = "2 cartes de même valeur. Elles peuvent",
 				[2] = "être jouées avec trois autres cartes non marquées",
 			},
 			["Royal Flush"] = {
-				[1] = "5 cartes à la suite {consecutive ranks} avec",
+				[1] = "5 cartes à la suite {valeurs consécutifs} avec",
 				[2] = "partageant la même couleur",
 			},
 			["Straight"] = {
-				[1] = "5 cartes à la suite {consecutive ranks}",
+				[1] = "5 cartes dont les valeurs se suivent",
 			},
 			["Straight Flush"] = {
-				[1] = "5 cartes à la suite {consecutive ranks} avec",
+				[1] = "5 cartes à la suite {valeurs consécutifs} avec",
 				[2] = "partageant la même couleur",
 			},
 			["Three of a Kind"] = {
-				[1] = "3 cartes de même valeur. Elles peuvent",
+				[1] = "3 cartes de même valeur. Elles peuvent",
 				[2] = "être jouées avec deux autres cartes non marquées",
 			},
 			["Two Pair"] = {
-				[1] = "2 paires de cartes de valeurs différentes. Elles peuvent",
+				[1] = "2 paires de cartes de valeurs différentes. Elles peuvent",
 				[2] = "être jouées avec une autre carte non marquée",
 			},
 		},
@@ -3795,10 +3794,10 @@ return {
 		},
 		quips = {
 			dq_1 = {
-				[1] = "Aïe ! J'espère que vous",
+				[1] = "Aïe ! J'espère que vous",
 				[2] = "avez caché quelques cartes",
 				[3] = "dans votre manche pour",
-				[4] = "relever ce dernier défi !",
+				[4] = "relever ce dernier défi !",
 			},
 			lq_1 = {
 				[1] = "On ferait peut-être",
@@ -3806,55 +3805,55 @@ return {
 				[3] = "la pêche...",
 			},
 			lq_10 = {
-				[1] = "Quel flop !",
+				[1] = "Quel flop !",
 			},
 			lq_2 = {
 				[1] = "On se couche",
-				[2] = "comme des dégonflés !",
+				[2] = "comme des dégonflés !",
 			},
 			lq_3 = {
 				[1] = "Il va falloir",
 				[2] = "reprendre nos esprits",
-				[3] = "avant de reprendre la main !",
+				[3] = "avant de reprendre la main !",
 			},
 			lq_4 = {
 				[1] = "Vous savez ce qu'on dit,",
 				[2] = "à la fin, c'est toujours",
-				[3] = "le casino qui gagne !",
+				[3] = "le casino qui gagne !",
 			},
 			lq_5 = {
 				[1] = "Eh bien, je crois que",
 				[2] = "le vrai Joker,",
-				[3] = "c'est vous !",
+				[3] = "c'est vous !",
 			},
 			lq_6 = {
 				[1] = "Oh non, vous bluffiez",
-				[2] = "aussi ?",
+				[2] = "aussi ?",
 			},
 			lq_7 = {
 				[1] = "On n'a pas l'air",
-				[2] = "fins !",
+				[2] = "fins !",
 			},
 			lq_8 = {
 				[1] = "Si j'avais des mains,",
 				[2] = "je me serais couvert",
-				[3] = "les yeux !",
+				[3] = "les yeux !",
 			},
 			lq_9 = {
 				[1] = "Je suis un bouffon,",
 				[2] = "au sens propre, et vous,",
-				[3] = "quelle est votre excuse ?",
+				[3] = "quelle est votre excuse ?",
 			},
 			wq_1 = {
-				[1] = "Vous êtes un As !",
+				[1] = "Vous êtes un As !",
 			},
 			wq_2 = {
 				[1] = "Vous avez bien géré",
-				[2] = "la situation !",
+				[2] = "la situation !",
 			},
 			wq_3 = {
 				[1] = "Vous ne bluffiez pas,",
-				[2] = "apparemment !",
+				[2] = "apparemment !",
 			},
 			wq_4 = {
 				[1] = "Dommage que tous ces",
@@ -3863,16 +3862,16 @@ return {
 			},
 			wq_5 = {
 				[1] = "Mes enseignements ont",
-				[2] = "porté leurs fruits !",
+				[2] = "porté leurs fruits !",
 			},
 			wq_6 = {
 				[1] = "Vous avez pris",
-				[2] = "de judicieuses décisions !",
+				[2] = "de judicieuses décisions !",
 			},
 			wq_7 = {
 				[1] = "Heureusement",
 				[2] = "que je n'ai pas misé",
-				[3] = "contre vous !",
+				[3] = "contre vous !",
 			},
 		},
 		ranks = {
@@ -3909,7 +3908,7 @@ return {
 			},
 			bb_2 = {
 				[1] = "Mais vous pouvez choisir de {C:attention}la passer",
-				[2] = "pour obtenir une {C:attention}Étiquette{} ! Chaque",
+				[2] = "pour obtenir une {C:attention}Étiquette{} ! Chaque",
 				[3] = "{C:attention}Étiquette{} possède un effet unique",
 			},
 			bb_3 = {
@@ -3925,7 +3924,7 @@ return {
 			},
 			bb_5 = {
 				[1] = "Battez la {C:attention}Mise initiale{} #1# pour gagner.",
-				[2] = "Choisissez votre voie !",
+				[2] = "Choisissez votre voie !",
 			},
 			fh_1 = {
 				[1] = "Vous gagnez des Jetons en",
@@ -3945,7 +3944,7 @@ return {
 			fh_4 = {
 				[1] = "Les cartes vous rapportent",
 				[2] = "également des {C:blue}Jetons{},",
-				[3] = "passez votre souris dessus pour savoir combien !",
+				[3] = "passez votre souris dessus pour savoir combien !",
 			},
 			fh_5 = {
 				[1] = "À présent, choisissez jusqu'à",
@@ -3956,21 +3955,21 @@ return {
 				[1] = "Vous pouvez également {C:red}Défausser{} jusqu'à",
 				[2] = "{C:attention}5{} cartes sélectionnées",
 				[3] = "pour essayer de créer des",
-				[4] = "mains encore plus fortes. Essayez !",
+				[4] = "mains encore plus fortes. Essayez !",
 			},
 			fh_7 = {
-				[1] = "Attention ! Vous ne disposez que d'un",
+				[1] = "Attention ! Vous ne disposez que d'un",
 				[2] = "nombre limité de {C:blue}Mains",
 				[3] = "et de {C:red}Défausses{} par manche",
 			},
 			fh_8 = {
-				[1] = "Gagnez {C:attention}300 Jetons{} avant",
+				[1] = "Gagnez {C:attention}300 Jetons{} avant",
 				[2] = "de manquer de {C:blue}Mains",
 				[3] = "pour remporter cette manche.",
-				[4] = "Bonne chance !",
+				[4] = "Bonne chance !",
 			},
 			s_1 = {
-				[1] = "Beau travail ! Maintenant",
+				[1] = "Beau travail ! Maintenant",
 				[2] = "que vous {E:1}nagez{} dans l'{C:money}or{},",
 				[3] = "vous pouvez acheter de nouvelles",
 				[4] = "cartes dans le {C:attention}Magasin",
@@ -3984,7 +3983,7 @@ return {
 				[1] = "Pensez à regarder les deux",
 				[2] = "{C:booster}Paquets Booster{} dans",
 				[3] = "chaque magasin. Ils",
-				[4] = "renferment de belles surprises !",
+				[4] = "renferment de belles surprises !",
 			},
 			s_12 = {
 				[1] = "Passons maintenant à",
@@ -4002,11 +4001,11 @@ return {
 			},
 			s_4 = {
 				[1] = "Celui-ci ajoute un {C:red}Multi. +4{} à",
-				[2] = "chaque main que vous jouez !",
+				[2] = "chaque main que vous jouez !",
 			},
 			s_5 = {
 				[1] = "Soyez sélectif, car vous ne pourrez",
-				[2] = "transporter que {C:attention}5 cartes Joker{}",
+				[2] = "transporter que {C:attention}5 cartes Joker{}",
 				[3] = "à la fois",
 			},
 			s_6 = {
@@ -4017,23 +4016,23 @@ return {
 				[1] = "Cette carte de {C:tarot}Tarot{} est un",
 				[2] = "{C:attention}Consommable{}. Celle-là",
 				[3] = "améliore vos cartes",
-				[4] = "à jouer ! Gardez-la précieusement.",
+				[4] = "à jouer ! Gardez-la précieusement.",
 			},
 			s_8 = {
 				[1] = "Vous pouvez transporter jusqu'à",
-				[2] = "{C:attention}2 cartes Consommable{}",
+				[2] = "{C:attention}2 cartes Consommable{}",
 				[3] = "à la fois",
 			},
 			s_9 = {
 				[1] = "Si vous économisez assez,",
 				[2] = "vous pouvez acheter un {C:attention}Bon d'achat{}.",
 				[3] = "Les {C:attention}Bons d'achat{} améliorent",
-				[4] = "votre partie de manière passive !",
+				[4] = "votre partie de manière passive !",
 			},
 			sb_1 = {
-				[1] = "Bien le bonjour ! Je m'appelle",
+				[1] = "Bien le bonjour ! Je m'appelle",
 				[2] = "{C:attention}Jimbo{}, et je suis là pour vous",
-				[3] = "apprendre à jouer !",
+				[3] = "apprendre à jouer !",
 			},
 			sb_2 = {
 				[1] = "L'objectif est de gagner des",
@@ -4043,11 +4042,11 @@ return {
 			sb_3 = {
 				[1] = "Ceci est une {C:blue}Petite Blinde{},",
 				[2] = "qui ne requerra qu'un score de",
-				[3] = "{C:attention}300 Jetons{} pour la battre.",
+				[3] = "{C:attention}300 Jetons{} pour la battre.",
 			},
 			sb_4 = {
 				[1] = "Sélectionnez la {C:blue}Petite Blinde",
-				[2] = "pour commencer la manche !",
+				[2] = "pour commencer la manche !",
 			},
 			sh_1 = {
 				[1] = "Quand vous obtiendrez d'autres cartes,",
@@ -4057,13 +4056,13 @@ return {
 			},
 			sh_2 = {
 				[1] = "Ah, et n'oubliez pas",
-				[2] = "d'{C:attention}UTILISER{} vos consommables !",
+				[2] = "d'{C:attention}UTILISER{} vos consommables !",
 			},
 			sh_3 = {
-				[1] = "Sélectionnez jusqu'à {C:attention}2{} cartes",
+				[1] = "Sélectionnez jusqu'à {C:attention}2{} cartes",
 				[2] = "dans votre main et appuyez sur",
 				[3] = "{C:attention}UTILISER{} sur la carte {C:tarot}Tarot{}",
-				[4] = "pour les améliorer !",
+				[4] = "pour les améliorer !",
 			},
 		},
 		v_dictionary = {
@@ -4083,8 +4082,8 @@ return {
 			completed = "#1#/#2# complétés",
 			deck_preview_wheel_plural = "Les nombres peuvent être inférieurs en raison des cartes #1# tirées faces cachées",
 			deck_preview_wheel_singular = "Les nombres peuvent être inférieurs en raison de la carte #1# tirée face cachée",
-			interest = "#1# d'intérêt tous les #2# $ (#3# max.)",
-			loyalty_active = "Actif !",
+			interest = "#1# d'intérêt tous les #2# $ (#3# max.)",
+			loyalty_active = "Actif !",
 			loyalty_inactive = "#1# restant",
 			ml_foil_desc = {
 				[1] = "Aluminium",
@@ -4106,8 +4105,8 @@ return {
 				[1] = "Polychrome",
 				[2] = "Multi. x#1#",
 			},
-			remaining_discard_money = "Défausses restantes (#1# $ chacune)",
-			remaining_hand_money = "Mains restantes (#1# $ chacune)",
+			remaining_discard_money = "Défausses restantes (#1# $ chacune)",
+			remaining_hand_money = "Mains restantes (#1# $ chacune)",
 			unlocked = "#1#/#2# débloqués",
 		},
 		v_text = {
@@ -4118,22 +4117,22 @@ return {
 				[1] = "Les {C:blue}Jetons{} ne peuvent pas dépasser le montant actuel de {C:money}$",
 			},
 			ch_c_daily = {
-				[1] = "{E:1,s:1.2,C:red}Défi du jour !",
+				[1] = "{E:1,s:1.2,C:red}Défi du jour !",
 			},
 			ch_c_debuff_played_cards = {
 				[1] = "Toutes les cartes {C:attention}jouées{} deviennent {C:attention}Affaiblies{} après avoir marqué des points",
 			},
 			ch_c_discard_cost = {
-				[1] = "Chaque défausse coûte {C:money}#1# ${}",
+				[1] = "Chaque défausse coûte {C:money}#1# ${}",
 			},
 			ch_c_flipped_cards = {
-				[1] = "{C:green}1 carte sur #1#{} est tirée face cachée",
+				[1] = "{C:green}1 carte sur #1#{} est tirée face cachée",
 			},
 			ch_c_inflation = {
-				[1] = "Augmente de manière permanente les prix de {C:money}1 ${} à chaque achat",
+				[1] = "Augmente de manière permanente les prix de {C:money}1 ${} à chaque achat",
 			},
 			ch_c_minus_hand_size_per_X_dollar = {
-				[1] = "Vous pouvez tenir {C:red}-1{} cartes en main par tranche de {C:money}#1# ${} en votre possession",
+				[1] = "Vous pouvez tenir {C:red}-1{} cartes en main par tranche de {C:money}#1# ${} en votre possession",
 			},
 			ch_c_no_extra_hand_money = {
 				[1] = "Les {C:blue}Mains{} supplémentaires ne rapportent plus d'argent",
@@ -4160,7 +4159,7 @@ return {
 				[1] = "Lorsque le boss de la mise initiale {C:attention}#1#{} est vaincu, les emplacements Joker passent à {C:attention}0",
 			},
 			ch_c_set_seed = {
-				[1] = "1 tentative avec les paramètres spécifiques définis : {C:inactive}{Hidden}",
+				[1] = "1 tentative avec la seed défini : {C:inactive}{Hidden}",
 			},
 			ch_m_consumable_slots = {
 				[1] = "{C:attention}#1#{} Emplacements Consommable",
@@ -4169,10 +4168,10 @@ return {
 				[1] = "{C:red}#1#{} défausses par manche",
 			},
 			ch_m_dollars = {
-				[1] = "Commencez avec {C:money}#1# $",
+				[1] = "Commencez avec {C:money}#1# $",
 			},
 			ch_m_hand_size = {
-				[1] = "Taille de la main : {C:attention}#1#{}",
+				[1] = "Taille de la main : {C:attention}#1#{}",
 			},
 			ch_m_hands = {
 				[1] = "{C:blue}#1#{} mains par manche",
@@ -4184,7 +4183,7 @@ return {
 				[1] = "{C:inactive}Aucun",
 			},
 			ch_m_reroll_cost = {
-				[1] = "Coût de base de nouveau lancer égal à {C:money}#1# ${}",
+				[1] = "Coût de base de nouveau lancer égal à {C:money}#1# ${}",
 			},
 		},
 	},

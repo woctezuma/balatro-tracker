@@ -1492,7 +1492,7 @@ return {
 				},
 				unlock = {
 					[1] = "Play a hand",
-					[2] = "that contans",
+					[2] = "that contains",
 					[3] = "{E:1,C:attention}#1#",
 				},
 			},
@@ -2525,7 +2525,7 @@ return {
 				name = "Black Stake",
 				text = {
 					[1] = "Shop can have {C:attention}Eternal{} Jokers",
-					[2] = "{C:inactive,s:0.8}{Can't be sold or destroyed}",
+					[2] = "{C:inactive,s:0.8}(Can't be sold or destroyed)",
 					[3] = "{s:0.8}Applies all previous Stakes",
 				},
 			},
@@ -2638,7 +2638,7 @@ return {
 				name = "Ethereal Tag",
 				text = {
 					[1] = "Gives a free",
-					[2] = "{C:planet}Spectral Pack",
+					[2] = "{C:spectral}Spectral Pack",
 				},
 			},
 			tag_foil = {
@@ -3549,6 +3549,7 @@ return {
 			k_plus_spectral = "+1 Spectral",
 			k_plus_stone = "+1 Stone",
 			k_plus_tarot = "+1 Tarot",
+			k_poker_hand = "poker hand",
 			k_profile = "Profile",
 			k_progress = "Progress",
 			k_rank = "Rank",
@@ -3654,6 +3655,7 @@ return {
 				[3] = "Borderless",
 			},
 			ph_1_level = "+1 Level",
+			ph_4_7_of_clubs = "four 7 of Clubs",
 			ph_alert_debuff_confirm = "Press 'Play' again to confirm",
 			ph_all_poker_hand = "All Poker Hands",
 			ph_blind_reward = "Reward: ",
@@ -3671,7 +3673,7 @@ return {
 			ph_demo_thanks_2 = "BALATRO DEMO",
 			ph_game_over = "GAME OVER",
 			ph_improve_run = "Improve your run!",
-			ph_most_played = "{most played hand}",
+			ph_most_played = "(most played hand)",
 			ph_mr_bones = "Saved by Mr. Bones",
 			ph_no_boss_active = "no boss active",
 			ph_no_vouchers = "No vouchers redeemed this run",
@@ -3759,14 +3761,14 @@ return {
 				[2] = "be played with up to 3 other unscored cards",
 			},
 			["Royal Flush"] = {
-				[1] = "5 cards in a row {consecutive ranks} with",
+				[1] = "5 cards in a row (consecutive ranks) with",
 				[2] = "all cards sharing the same suit",
 			},
 			["Straight"] = {
-				[1] = "5 cards in a row {consecutive ranks}",
+				[1] = "5 cards in a row (consecutive ranks)",
 			},
 			["Straight Flush"] = {
-				[1] = "5 cards in a row {consecutive ranks} with",
+				[1] = "5 cards in a row (consecutive ranks) with",
 				[2] = "all cards sharing the same suit",
 			},
 			["Three of a Kind"] = {
