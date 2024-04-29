@@ -1591,7 +1591,7 @@ return {
 					"Gains {C:chips}+#2#{} Chips if",
 					"played hand has",
 					"exactly {C:attention}4{} cards",
-					"{C:inactive}(Currently {C:chips}#1#{} Chips)",
+					"{C:inactive}(Currently {C:chips}#1#{C:inactive} Chips)",
 				},
 			},
 			j_steel_joker = {
