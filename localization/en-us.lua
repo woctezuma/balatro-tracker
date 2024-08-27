@@ -3384,6 +3384,24 @@ return {
 			c_typecast_1 = "Typecast",
 			c_xray_1 = "X-ray Vision",
 		},
+		collabs = {
+			Clubs = {
+				["1"] = "Default",
+				["2"] = "Vampire Survivors",
+			},
+			Diamonds = {
+				["1"] = "Default",
+				["2"] = "Dave the Diver",
+			},
+			Hearts = {
+				["1"] = "Default",
+				["2"] = "Among Us",
+			},
+			Spades = {
+				["1"] = "Default",
+				["2"] = "The Witcher",
+			},
+		},
 		dictionary = {
 			["$"] = "$",
 			b_and_use = "& USE",
@@ -3401,6 +3419,7 @@ return {
 			b_create_profile = "Create Profile",
 			b_credits = "Credits",
 			b_current_profile = "Current Profile",
+			b_customize_deck = "Customize Deck",
 			b_deck = "Deck",
 			b_decks = "Decks",
 			b_delete_profile = "Delete Profile",
@@ -3675,6 +3694,7 @@ return {
 			ph_defeat_this_blind_2 = "to discover it",
 			ph_demo_thanks_1 = "Thanks for playing the",
 			ph_demo_thanks_2 = "BALATRO DEMO",
+			ph_display_stickers = "Display Stake Stickers during Run",
 			ph_game_over = "GAME OVER",
 			ph_improve_run = "Improve your run!",
 			ph_most_played = "(most played hand)",

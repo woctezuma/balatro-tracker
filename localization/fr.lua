@@ -1,5 +1,4 @@
 return {
-	UI = {},
 	descriptions = {
 		Back = {
 			b_abandoned = {
@@ -3291,9 +3290,9 @@ return {
 	},
 	misc = {
 		achievement_descriptions = {
-			_100000k = "Gagnez 100 000 000 de Jetons en une seule main",
-			_1000k = "Gagnez 1 000 000 de Jetons en une seule main",
-			_10k = "Gagnez 10 000 Jetons en une seule main",
+			_100000k = "Consigue 100 000 000 de fichas en una sola mano",
+			_1000k = "Consigue 1 000 000 de fichas en una sola mano",
+			_10k = "Consigue 10 000 fichas en una sola mano",
 			ante_up = "Atteignez la mise initiale 4",
 			ante_upper = "Atteignez la mise initiale 8",
 			astronomy = "Découvrez toutes les cartes Planète",
@@ -3324,8 +3323,8 @@ return {
 			you_get_what_you_get = "Gagnez une partie sans effectuer aucun renouvellement dans le magasin",
 		},
 		achievement_names = {
-			_100000k = "100 000 000",
-			_1000k = "1 000 000",
+			_100000k = "100 000 K",
+			_1000k = "1000 K",
 			_10k = "10 000",
 			ante_up = "Mise initiale augmentée !",
 			ante_upper = "Mise initiale encore augmentée !",
@@ -3354,7 +3353,7 @@ return {
 			shattered = "En miettes",
 			speedrunner = "Speedrunner",
 			tiny_hands = "Petites mains",
-			you_get_what_you_get = "À prendre ou à laisser",
+			you_get_what_you_get = "Te toca lo que te toca",
 		},
 		blind_states = {
 			Current = "Actuel",
@@ -3386,6 +3385,24 @@ return {
 			c_typecast_1 = "Typecasting",
 			c_xray_1 = "Vision aux rayons X",
 		},
+		collabs = {
+			Clubs = {
+				["1"] = "Défaut",
+				["2"] = "Vampire Survivors",
+			},
+			Diamonds = {
+				["1"] = "Défaut",
+				["2"] = "DAVE THE DIVER",
+			},
+			Hearts = {
+				["1"] = "Défaut",
+				["2"] = "Among Us",
+			},
+			Spades = {
+				["1"] = "Défaut",
+				["2"] = "The Witcher",
+			},
+		},
 		dictionary = {
 			["$"] = "$",
 			b_and_use = "ET UTILISER",
@@ -3403,6 +3420,7 @@ return {
 			b_create_profile = "Créer un profil",
 			b_credits = "Crédits",
 			b_current_profile = "Profil actuel",
+			b_customize_deck = "Personnaliser le jeu",
 			b_deck = "Jeu",
 			b_decks = "Jeux",
 			b_delete_profile = "Supprimer un profil",
@@ -3676,13 +3694,14 @@ return {
 			ph_choose_blind_1 = "Choisissez votre",
 			ph_choose_blind_2 = "prochaine Blinde",
 			ph_click_confirm = "Cliquez à nouveau pour confirmer",
-			ph_deck_preview_effective = "Total effectif grâce aux Jokers, aux Blindes et aux améliorations de cartes",
+			ph_deck_preview_effective = " Blinds und Kartenverstärkungen",
 			ph_deck_preview_stones = "Pierres",
 			ph_defeat_the_boss = "Battez la Blinde Boss",
-			ph_defeat_this_blind_1 = "Battez cette Blinde",
+			ph_defeat_this_blind_1 = "Derrota a esta ciega",
 			ph_defeat_this_blind_2 = "pour la découvrir",
 			ph_demo_thanks_1 = "Merci d'avoir joué à la",
 			ph_demo_thanks_2 = "DÉMO DE BALATRO",
+			ph_display_stickers = "Afficher les autocollants des mises pendant la partie",
 			ph_game_over = "PARTIE TERMINÉE",
 			ph_improve_run = "Améliorez votre partie !",
 			ph_most_played = "(main la plus jouée)",
@@ -4098,8 +4117,8 @@ return {
 			ante_x_voucher = "MISE INITIALE #1# COUPON",
 			challenges_completed = "#1#/#2# Défis terminés",
 			completed = "#1#/#2# complétés",
-			deck_preview_wheel_plural = "Les nombres peuvent être inférieurs en raison des cartes #1# tirées faces cachées",
-			deck_preview_wheel_singular = "Les nombres peuvent être inférieurs en raison de la carte #1# tirée face cachée",
+			deck_preview_wheel_plural = "Los números pueden ser inferiores debido a las cartas #1# que se sacan boca abajo",
+			deck_preview_wheel_singular = "Las cantidades pueden ser inferiores debido a la carta #1# que se saca boca abajo",
 			interest = "#1# d'intérêt tous les #2# $ (#3# max.)",
 			loyalty_active = "Actif !",
 			loyalty_inactive = "#1# restant",
@@ -4205,5 +4224,4 @@ return {
 			},
 		},
 	},
-	tutorial = {},
 }
