@@ -1,5 +1,5 @@
 LUA_PREFIX = "return "
-RANKS_AS_DIGITS = list(range(2, 11))
+RANKS_AS_DIGITS = list(range(1, 11))
 POKER_HANDS = [
     "Flush Five",
     "Flush House",
