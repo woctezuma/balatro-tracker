@@ -1,5 +1,4 @@
 return {
-	UI = {},
 	descriptions = {
 		Back = {
 			b_abandoned = {
@@ -3388,22 +3387,27 @@ return {
 			Clubs = {
 				["1"] = "Default",
 				["2"] = "Vampire Survivors",
+				["3"] = "Slay the Spire",
 			},
 			Diamonds = {
 				["1"] = "Default",
 				["2"] = "Dave the Diver",
+				["3"] = "Stardew Valley",
 			},
 			Hearts = {
 				["1"] = "Default",
 				["2"] = "Among Us",
+				["3"] = "The Binding of Isaac",
 			},
 			Spades = {
 				["1"] = "Default",
 				["2"] = "The Witcher",
+				["3"] = "Cyberpunk 2077",
 			},
 		},
 		dictionary = {
 			["$"] = "$",
+			b_FAQ = "FAQ",
 			b_and_use = "& USE",
 			b_back = "Back",
 			b_blinds = "Blinds",
@@ -3429,6 +3433,7 @@ return {
 			b_enhanced_cards = "Enhanced Cards",
 			b_full_deck = "Full Deck",
 			b_high_contrast_cards = "High Contrast Cards",
+			b_how_to_play = "How to play",
 			b_imagery = "Imagery",
 			b_jokers = "Jokers",
 			b_load_profile = "Load Profile",
@@ -3454,6 +3459,7 @@ return {
 			b_reroll_boss = "Reroll Boss",
 			b_reset_profile = "Reset Profile",
 			b_restrictions = "Restrictions",
+			b_retry = "Retry",
 			b_rules = "Rules",
 			b_run_info_1 = "Run",
 			b_run_info_2 = "Info",
@@ -3478,6 +3484,7 @@ return {
 			b_set_rumble = "Controller Rumble",
 			b_set_screenshake = "Screenshake",
 			b_set_shadows = "Shadows",
+			b_set_vibration = "Vibration",
 			b_set_video = "Video",
 			b_set_windowmode = "Window Mode",
 			b_settings = "Settings",
@@ -3627,7 +3634,13 @@ return {
 			k_wins = "Wins",
 			k_x_base = "X Base",
 			ml_bloom_opt = { "Off", "On" },
+			ml_buy_and_use_target = { "Buy", "and Use" },
+			ml_buy_target = { "Buy" },
 			ml_card_stats = { "Card", "Stats" },
+			ml_controller_required = {
+				"A game controller is required to play.",
+				"Please connect a controller to continue.",
+			},
 			ml_crash_report_info = {
 				"Crash reports will be sent to the developer",
 				"to help reduce issues in the future. No",
@@ -3656,11 +3669,18 @@ return {
 				"returns to hand",
 				"when played",
 			},
+			ml_offline_message = {
+				"This device is offline.",
+				"The current save may be out of date.",
+			},
+			ml_open_target = { "Open" },
 			ml_paste_seed = { "Paste", "Seed" },
 			ml_play_discard_pos_opt = {
 				"Discard/Play",
 				"Play/Discard",
 			},
+			ml_redeem_target = { "Redeem" },
+			ml_sell_target = { "Sell" },
 			ml_shadow_opt = { "On", "Off" },
 			ml_smoothing_opt = { "Off", "On" },
 			ml_unlock_all_explanation = {
@@ -3686,7 +3706,7 @@ return {
 			ph_boss_disabled = "Boss Disabled!",
 			ph_choose_blind_1 = "Choose your",
 			ph_choose_blind_2 = "next Blind",
-			ph_click_confirm = "Click again to confirm",
+			ph_click_confirm = "Select again to confirm",
 			ph_deck_preview_effective = "Effective total due to Jokers, Blinds, and card enhancements",
 			ph_deck_preview_stones = "Stones",
 			ph_defeat_the_boss = "Defeat the Boss Blind",
@@ -3976,8 +3996,18 @@ return {
 				"you some {C:blue}Chips{},",
 				"hover over to see!",
 			},
+			fh_4_touch = {
+				"Cards also earn",
+				"you some {C:blue}Chips{},",
+				"press and hold to see!",
+			},
 			fh_5 = {
 				"Now select up to",
+				"{C:attention}5{} cards to play",
+				"and press {C:blue}'Play Hand'",
+			},
+			fh_5_touch = {
+				"Now tap up to",
 				"{C:attention}5{} cards to play",
 				"and press {C:blue}'Play Hand'",
 			},
@@ -4022,6 +4052,12 @@ return {
 			s_2 = {
 				"Try buying this",
 				"handsome Devil",
+			},
+			s_2_touch = {
+				"Try buying this",
+				"handsome Devil!",
+				"Drag it from the shop",
+				"into the {C:attention}'BUY'{} area",
 			},
 			s_3 = {
 				"This is one of the {C:attention}#1#",
@@ -4093,6 +4129,12 @@ return {
 				"in your hand and press",
 				"{C:attention}'USE'{} on the {C:tarot}Tarot{} card",
 				"to enhance them!",
+			},
+			sh_3_touch = {
+				"Select up to {C:attention}2{} cards",
+				"in your hand and drag",
+				"the {C:tarot}Tarot{} card into the {C:attention}'USE'{}",
+				"area to enhance them!",
 			},
 		},
 		v_dictionary = {
@@ -4217,5 +4259,4 @@ return {
 			},
 		},
 	},
-	tutorial = {},
 }
