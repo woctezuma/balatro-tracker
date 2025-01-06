@@ -3390,21 +3390,29 @@ return {
 				["1"] = "Défaut",
 				["2"] = "Vampire Survivors",
 				["3"] = "Slay the Spire",
+				["4"] = "Potion Craft",
+				["5"] = "Warframe",
 			},
 			Diamonds = {
 				["1"] = "Défaut",
 				["2"] = "DAVE THE DIVER",
 				["3"] = "Stardew Valley",
+				["4"] = "Enter the Gungeon",
+				["5"] = "1000xRESIST",
 			},
 			Hearts = {
 				["1"] = "Défaut",
 				["2"] = "Among Us",
 				["3"] = "The Binding of Isaac",
+				["4"] = "Cult of the Lamb",
+				["5"] = "Divinity Original Sin 2",
 			},
 			Spades = {
 				["1"] = "Défaut",
 				["2"] = "The Witcher",
 				["3"] = "Cyberpunk 2077",
+				["4"] = "Shovel Knight",
+				["5"] = "Don’t Starve",
 			},
 		},
 		dictionary = {
@@ -4264,9 +4272,6 @@ return {
 			},
 			ch_m_none = {
 				"{C:inactive}Aucun",
-			},
-			ch_m_reroll_cost = {
-				"Coût de base du renouvellement égal à {C:money}#1# ${}",
 			},
 		},
 	},
